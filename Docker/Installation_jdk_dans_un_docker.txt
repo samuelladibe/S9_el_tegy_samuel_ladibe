@@ -1,7 +1,3 @@
-                  <module name> can also be ALL-DEFAULT, ALL-SYSTEM,
-                  ALL-MODULE-PATH.
-    --enable-native-access <module name>[,<module name>...]
-                  modules that are permitted to perform restricted native operations.
                   <module name> can also be ALL-UNNAMED.
     --list-modules
                   list observable modules and exit
@@ -886,4 +882,8 @@ root@676a4bb0459d:/var/www/html# ls
 index.html
 root@676a4bb0459d:/var/www/html# vi index.html
 root@676a4bb0459d:/var/www/html# vi index.html
+root@676a4bb0459d:/var/www/html# vi index.html
+root@676a4bb0459d:/var/www/html# rm index.html 
+root@676a4bb0459d:/var/www/html# touch index.php
+root@676a4bb0459d:/var/www/html# vi index.php 
 root@676a4bb0459d:/var/www/html# 
