@@ -1,0 +1,677 @@
+eleve@bdtn:~/Téléchargements$ ssh toto@localhost -p 22
+The authenticity of host 'localhost (::1)' can't be established.
+ED25519 key fingerprint is SHA256:hCxz1NUvRYmyuNde/bFoxqEweKhUHpXs7ENmq24CDKY.
+This host key is known by the following other names/addresses:
+    ~/.ssh/known_hosts:1: [hashed name]
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'localhost' (ED25519) to the list of known hosts.
+toto@localhost's password: 
+Linux 8a891c876bd3 6.1.0-13-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.1.55-1 (2023-09-29) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+toto@8a891c876bd3:~$ ls
+jdk-21_linux-x64_bin.tar.gz
+toto@8a891c876bd3:~$ tar xzvf jdk-21_linux-x64_bin.tar.gz
+jdk-21.0.1/LICENSE
+jdk-21.0.1/README
+jdk-21.0.1/bin/jar
+jdk-21.0.1/bin/jarsigner
+jdk-21.0.1/bin/java
+jdk-21.0.1/bin/javac
+jdk-21.0.1/bin/javadoc
+jdk-21.0.1/bin/javap
+jdk-21.0.1/bin/jcmd
+jdk-21.0.1/bin/jconsole
+jdk-21.0.1/bin/jdb
+jdk-21.0.1/bin/jdeprscan
+jdk-21.0.1/bin/jdeps
+jdk-21.0.1/bin/jfr
+jdk-21.0.1/bin/jhsdb
+jdk-21.0.1/bin/jimage
+jdk-21.0.1/bin/jinfo
+jdk-21.0.1/bin/jlink
+jdk-21.0.1/bin/jmap
+jdk-21.0.1/bin/jmod
+jdk-21.0.1/bin/jpackage
+jdk-21.0.1/bin/jps
+jdk-21.0.1/bin/jrunscript
+jdk-21.0.1/bin/jshell
+jdk-21.0.1/bin/jstack
+jdk-21.0.1/bin/jstat
+jdk-21.0.1/bin/jstatd
+jdk-21.0.1/bin/jwebserver
+jdk-21.0.1/bin/keytool
+jdk-21.0.1/bin/rmiregistry
+jdk-21.0.1/bin/serialver
+jdk-21.0.1/conf/jaxp.properties
+jdk-21.0.1/conf/logging.properties
+jdk-21.0.1/conf/management/jmxremote.access
+jdk-21.0.1/conf/management/jmxremote.password.template
+jdk-21.0.1/conf/management/management.properties
+jdk-21.0.1/conf/net.properties
+jdk-21.0.1/conf/sdp/sdp.conf.template
+jdk-21.0.1/conf/security/java.policy
+jdk-21.0.1/conf/security/java.security
+jdk-21.0.1/conf/security/policy/README.txt
+jdk-21.0.1/conf/security/policy/limited/default_US_export.policy
+jdk-21.0.1/conf/security/policy/limited/default_local.policy
+jdk-21.0.1/conf/security/policy/limited/exempt_local.policy
+jdk-21.0.1/conf/security/policy/unlimited/default_US_export.policy
+jdk-21.0.1/conf/security/policy/unlimited/default_local.policy
+jdk-21.0.1/conf/sound.properties
+jdk-21.0.1/include/classfile_constants.h
+jdk-21.0.1/include/jawt.h
+jdk-21.0.1/include/jdwpTransport.h
+jdk-21.0.1/include/jni.h
+jdk-21.0.1/include/jvmti.h
+jdk-21.0.1/include/jvmticmlr.h
+jdk-21.0.1/include/linux/jawt_md.h
+jdk-21.0.1/include/linux/jni_md.h
+jdk-21.0.1/jmods/java.base.jmod
+jdk-21.0.1/jmods/java.compiler.jmod
+jdk-21.0.1/jmods/java.datatransfer.jmod
+jdk-21.0.1/jmods/java.desktop.jmod
+jdk-21.0.1/jmods/java.instrument.jmod
+jdk-21.0.1/jmods/java.logging.jmod
+jdk-21.0.1/jmods/java.management.jmod
+jdk-21.0.1/jmods/java.management.rmi.jmod
+jdk-21.0.1/jmods/java.naming.jmod
+jdk-21.0.1/jmods/java.net.http.jmod
+jdk-21.0.1/jmods/java.prefs.jmod
+jdk-21.0.1/jmods/java.rmi.jmod
+jdk-21.0.1/jmods/java.scripting.jmod
+jdk-21.0.1/jmods/java.se.jmod
+jdk-21.0.1/jmods/java.security.jgss.jmod
+jdk-21.0.1/jmods/java.security.sasl.jmod
+jdk-21.0.1/jmods/java.smartcardio.jmod
+jdk-21.0.1/jmods/java.sql.jmod
+jdk-21.0.1/jmods/java.sql.rowset.jmod
+jdk-21.0.1/jmods/java.transaction.xa.jmod
+jdk-21.0.1/jmods/java.xml.crypto.jmod
+jdk-21.0.1/jmods/java.xml.jmod
+jdk-21.0.1/jmods/jdk.accessibility.jmod
+jdk-21.0.1/jmods/jdk.attach.jmod
+jdk-21.0.1/jmods/jdk.charsets.jmod
+jdk-21.0.1/jmods/jdk.compiler.jmod
+jdk-21.0.1/jmods/jdk.crypto.cryptoki.jmod
+jdk-21.0.1/jmods/jdk.crypto.ec.jmod
+jdk-21.0.1/jmods/jdk.dynalink.jmod
+jdk-21.0.1/jmods/jdk.editpad.jmod
+jdk-21.0.1/jmods/jdk.hotspot.agent.jmod
+jdk-21.0.1/jmods/jdk.httpserver.jmod
+jdk-21.0.1/jmods/jdk.incubator.vector.jmod
+jdk-21.0.1/jmods/jdk.internal.ed.jmod
+jdk-21.0.1/jmods/jdk.internal.jvmstat.jmod
+jdk-21.0.1/jmods/jdk.internal.le.jmod
+jdk-21.0.1/jmods/jdk.internal.opt.jmod
+jdk-21.0.1/jmods/jdk.internal.vm.ci.jmod
+jdk-21.0.1/jmods/jdk.internal.vm.compiler.jmod
+jdk-21.0.1/jmods/jdk.internal.vm.compiler.management.jmod
+jdk-21.0.1/jmods/jdk.jartool.jmod
+jdk-21.0.1/jmods/jdk.javadoc.jmod
+jdk-21.0.1/jmods/jdk.jcmd.jmod
+jdk-21.0.1/jmods/jdk.jconsole.jmod
+jdk-21.0.1/jmods/jdk.jdeps.jmod
+jdk-21.0.1/jmods/jdk.jdi.jmod
+jdk-21.0.1/jmods/jdk.jdwp.agent.jmod
+jdk-21.0.1/jmods/jdk.jfr.jmod
+jdk-21.0.1/jmods/jdk.jlink.jmod
+jdk-21.0.1/jmods/jdk.jpackage.jmod
+jdk-21.0.1/jmods/jdk.jshell.jmod
+jdk-21.0.1/jmods/jdk.jsobject.jmod
+jdk-21.0.1/jmods/jdk.jstatd.jmod
+jdk-21.0.1/jmods/jdk.localedata.jmod
+jdk-21.0.1/jmods/jdk.management.agent.jmod
+jdk-21.0.1/jmods/jdk.management.jfr.jmod
+jdk-21.0.1/jmods/jdk.management.jmod
+jdk-21.0.1/jmods/jdk.naming.dns.jmod
+jdk-21.0.1/jmods/jdk.naming.rmi.jmod
+jdk-21.0.1/jmods/jdk.net.jmod
+jdk-21.0.1/jmods/jdk.nio.mapmode.jmod
+jdk-21.0.1/jmods/jdk.random.jmod
+jdk-21.0.1/jmods/jdk.sctp.jmod
+jdk-21.0.1/jmods/jdk.security.auth.jmod
+jdk-21.0.1/jmods/jdk.security.jgss.jmod
+jdk-21.0.1/jmods/jdk.unsupported.desktop.jmod
+jdk-21.0.1/jmods/jdk.unsupported.jmod
+jdk-21.0.1/jmods/jdk.xml.dom.jmod
+jdk-21.0.1/jmods/jdk.zipfs.jmod
+jdk-21.0.1/legal/java.base/COPYRIGHT
+jdk-21.0.1/legal/java.base/LICENSE
+jdk-21.0.1/legal/java.base/aes.md
+jdk-21.0.1/legal/java.base/asm.md
+jdk-21.0.1/legal/java.base/c-libutl.md
+jdk-21.0.1/legal/java.base/cldr.md
+jdk-21.0.1/legal/java.base/icu.md
+jdk-21.0.1/legal/java.base/public_suffix.md
+jdk-21.0.1/legal/java.base/unicode.md
+jdk-21.0.1/legal/java.compiler/COPYRIGHT
+jdk-21.0.1/legal/java.compiler/LICENSE
+jdk-21.0.1/legal/java.datatransfer/COPYRIGHT
+jdk-21.0.1/legal/java.datatransfer/LICENSE
+jdk-21.0.1/legal/java.desktop/COPYRIGHT
+jdk-21.0.1/legal/java.desktop/LICENSE
+jdk-21.0.1/legal/java.desktop/colorimaging.md
+jdk-21.0.1/legal/java.desktop/giflib.md
+jdk-21.0.1/legal/java.desktop/harfbuzz.md
+jdk-21.0.1/legal/java.desktop/jpeg.md
+jdk-21.0.1/legal/java.desktop/lcms.md
+jdk-21.0.1/legal/java.desktop/libpng.md
+jdk-21.0.1/legal/java.desktop/mesa3d.md
+jdk-21.0.1/legal/java.desktop/pipewire.md
+jdk-21.0.1/legal/java.desktop/xwd.md
+jdk-21.0.1/legal/java.instrument/COPYRIGHT
+jdk-21.0.1/legal/java.instrument/LICENSE
+jdk-21.0.1/legal/java.logging/COPYRIGHT
+jdk-21.0.1/legal/java.logging/LICENSE
+jdk-21.0.1/legal/java.management.rmi/COPYRIGHT
+jdk-21.0.1/legal/java.management.rmi/LICENSE
+jdk-21.0.1/legal/java.management/COPYRIGHT
+jdk-21.0.1/legal/java.management/LICENSE
+jdk-21.0.1/legal/java.naming/COPYRIGHT
+jdk-21.0.1/legal/java.naming/LICENSE
+jdk-21.0.1/legal/java.net.http/COPYRIGHT
+jdk-21.0.1/legal/java.net.http/LICENSE
+jdk-21.0.1/legal/java.prefs/COPYRIGHT
+jdk-21.0.1/legal/java.prefs/LICENSE
+jdk-21.0.1/legal/java.rmi/COPYRIGHT
+jdk-21.0.1/legal/java.rmi/LICENSE
+jdk-21.0.1/legal/java.scripting/COPYRIGHT
+jdk-21.0.1/legal/java.scripting/LICENSE
+jdk-21.0.1/legal/java.se/COPYRIGHT
+jdk-21.0.1/legal/java.se/LICENSE
+jdk-21.0.1/legal/java.security.jgss/COPYRIGHT
+jdk-21.0.1/legal/java.security.jgss/LICENSE
+jdk-21.0.1/legal/java.security.sasl/COPYRIGHT
+jdk-21.0.1/legal/java.security.sasl/LICENSE
+jdk-21.0.1/legal/java.smartcardio/COPYRIGHT
+jdk-21.0.1/legal/java.smartcardio/LICENSE
+jdk-21.0.1/legal/java.smartcardio/pcsclite.md
+jdk-21.0.1/legal/java.sql.rowset/COPYRIGHT
+jdk-21.0.1/legal/java.sql.rowset/LICENSE
+jdk-21.0.1/legal/java.sql/COPYRIGHT
+jdk-21.0.1/legal/java.sql/LICENSE
+jdk-21.0.1/legal/java.transaction.xa/COPYRIGHT
+jdk-21.0.1/legal/java.transaction.xa/LICENSE
+jdk-21.0.1/legal/java.xml.crypto/COPYRIGHT
+jdk-21.0.1/legal/java.xml.crypto/LICENSE
+jdk-21.0.1/legal/java.xml.crypto/santuario.md
+jdk-21.0.1/legal/java.xml/COPYRIGHT
+jdk-21.0.1/legal/java.xml/LICENSE
+jdk-21.0.1/legal/java.xml/bcel.md
+jdk-21.0.1/legal/java.xml/dom.md
+jdk-21.0.1/legal/java.xml/jcup.md
+jdk-21.0.1/legal/java.xml/xalan.md
+jdk-21.0.1/legal/java.xml/xerces.md
+jdk-21.0.1/legal/jdk.accessibility/COPYRIGHT
+jdk-21.0.1/legal/jdk.accessibility/LICENSE
+jdk-21.0.1/legal/jdk.attach/COPYRIGHT
+jdk-21.0.1/legal/jdk.attach/LICENSE
+jdk-21.0.1/legal/jdk.charsets/COPYRIGHT
+jdk-21.0.1/legal/jdk.charsets/LICENSE
+jdk-21.0.1/legal/jdk.compiler/COPYRIGHT
+jdk-21.0.1/legal/jdk.compiler/LICENSE
+jdk-21.0.1/legal/jdk.crypto.cryptoki/COPYRIGHT
+jdk-21.0.1/legal/jdk.crypto.cryptoki/LICENSE
+jdk-21.0.1/legal/jdk.crypto.cryptoki/pkcs11cryptotoken.md
+jdk-21.0.1/legal/jdk.crypto.cryptoki/pkcs11wrapper.md
+jdk-21.0.1/legal/jdk.crypto.ec/COPYRIGHT
+jdk-21.0.1/legal/jdk.crypto.ec/LICENSE
+jdk-21.0.1/legal/jdk.dynalink/COPYRIGHT
+jdk-21.0.1/legal/jdk.dynalink/LICENSE
+jdk-21.0.1/legal/jdk.dynalink/dynalink.md
+jdk-21.0.1/legal/jdk.editpad/COPYRIGHT
+jdk-21.0.1/legal/jdk.editpad/LICENSE
+jdk-21.0.1/legal/jdk.hotspot.agent/COPYRIGHT
+jdk-21.0.1/legal/jdk.hotspot.agent/LICENSE
+jdk-21.0.1/legal/jdk.httpserver/COPYRIGHT
+jdk-21.0.1/legal/jdk.httpserver/LICENSE
+jdk-21.0.1/legal/jdk.incubator.vector/COPYRIGHT
+jdk-21.0.1/legal/jdk.incubator.vector/LICENSE
+jdk-21.0.1/legal/jdk.internal.ed/COPYRIGHT
+jdk-21.0.1/legal/jdk.internal.ed/LICENSE
+jdk-21.0.1/legal/jdk.internal.jvmstat/COPYRIGHT
+jdk-21.0.1/legal/jdk.internal.jvmstat/LICENSE
+jdk-21.0.1/legal/jdk.internal.le/COPYRIGHT
+jdk-21.0.1/legal/jdk.internal.le/LICENSE
+jdk-21.0.1/legal/jdk.internal.le/jline.md
+jdk-21.0.1/legal/jdk.internal.opt/COPYRIGHT
+jdk-21.0.1/legal/jdk.internal.opt/LICENSE
+jdk-21.0.1/legal/jdk.internal.opt/jopt-simple.md
+jdk-21.0.1/legal/jdk.internal.vm.ci/COPYRIGHT
+jdk-21.0.1/legal/jdk.internal.vm.ci/LICENSE
+jdk-21.0.1/legal/jdk.internal.vm.compiler.management/COPYRIGHT
+jdk-21.0.1/legal/jdk.internal.vm.compiler.management/LICENSE
+jdk-21.0.1/legal/jdk.internal.vm.compiler/COPYRIGHT
+jdk-21.0.1/legal/jdk.internal.vm.compiler/LICENSE
+jdk-21.0.1/legal/jdk.jartool/COPYRIGHT
+jdk-21.0.1/legal/jdk.jartool/LICENSE
+jdk-21.0.1/legal/jdk.javadoc/COPYRIGHT
+jdk-21.0.1/legal/jdk.javadoc/LICENSE
+jdk-21.0.1/legal/jdk.javadoc/jquery.md
+jdk-21.0.1/legal/jdk.javadoc/jqueryUI.md
+jdk-21.0.1/legal/jdk.jcmd/COPYRIGHT
+jdk-21.0.1/legal/jdk.jcmd/LICENSE
+jdk-21.0.1/legal/jdk.jconsole/COPYRIGHT
+jdk-21.0.1/legal/jdk.jconsole/LICENSE
+jdk-21.0.1/legal/jdk.jdeps/COPYRIGHT
+jdk-21.0.1/legal/jdk.jdeps/LICENSE
+jdk-21.0.1/legal/jdk.jdi/COPYRIGHT
+jdk-21.0.1/legal/jdk.jdi/LICENSE
+jdk-21.0.1/legal/jdk.jdwp.agent/COPYRIGHT
+jdk-21.0.1/legal/jdk.jdwp.agent/LICENSE
+jdk-21.0.1/legal/jdk.jfr/COPYRIGHT
+jdk-21.0.1/legal/jdk.jfr/LICENSE
+jdk-21.0.1/legal/jdk.jlink/COPYRIGHT
+jdk-21.0.1/legal/jdk.jlink/LICENSE
+jdk-21.0.1/legal/jdk.jpackage/COPYRIGHT
+jdk-21.0.1/legal/jdk.jpackage/LICENSE
+jdk-21.0.1/legal/jdk.jshell/COPYRIGHT
+jdk-21.0.1/legal/jdk.jshell/LICENSE
+jdk-21.0.1/legal/jdk.jsobject/COPYRIGHT
+jdk-21.0.1/legal/jdk.jsobject/LICENSE
+jdk-21.0.1/legal/jdk.jstatd/COPYRIGHT
+jdk-21.0.1/legal/jdk.jstatd/LICENSE
+jdk-21.0.1/legal/jdk.localedata/COPYRIGHT
+jdk-21.0.1/legal/jdk.localedata/LICENSE
+jdk-21.0.1/legal/jdk.localedata/cldr.md
+jdk-21.0.1/legal/jdk.localedata/thaidict.md
+jdk-21.0.1/legal/jdk.management.agent/COPYRIGHT
+jdk-21.0.1/legal/jdk.management.agent/LICENSE
+jdk-21.0.1/legal/jdk.management.jfr/COPYRIGHT
+jdk-21.0.1/legal/jdk.management.jfr/LICENSE
+jdk-21.0.1/legal/jdk.management/COPYRIGHT
+jdk-21.0.1/legal/jdk.management/LICENSE
+jdk-21.0.1/legal/jdk.naming.dns/COPYRIGHT
+jdk-21.0.1/legal/jdk.naming.dns/LICENSE
+jdk-21.0.1/legal/jdk.naming.rmi/COPYRIGHT
+jdk-21.0.1/legal/jdk.naming.rmi/LICENSE
+jdk-21.0.1/legal/jdk.net/COPYRIGHT
+jdk-21.0.1/legal/jdk.net/LICENSE
+jdk-21.0.1/legal/jdk.nio.mapmode/COPYRIGHT
+jdk-21.0.1/legal/jdk.nio.mapmode/LICENSE
+jdk-21.0.1/legal/jdk.random/COPYRIGHT
+jdk-21.0.1/legal/jdk.random/LICENSE
+jdk-21.0.1/legal/jdk.sctp/COPYRIGHT
+jdk-21.0.1/legal/jdk.sctp/LICENSE
+jdk-21.0.1/legal/jdk.security.auth/COPYRIGHT
+jdk-21.0.1/legal/jdk.security.auth/LICENSE
+jdk-21.0.1/legal/jdk.security.jgss/COPYRIGHT
+jdk-21.0.1/legal/jdk.security.jgss/LICENSE
+jdk-21.0.1/legal/jdk.unsupported.desktop/COPYRIGHT
+jdk-21.0.1/legal/jdk.unsupported.desktop/LICENSE
+jdk-21.0.1/legal/jdk.unsupported/COPYRIGHT
+jdk-21.0.1/legal/jdk.unsupported/LICENSE
+jdk-21.0.1/legal/jdk.xml.dom/COPYRIGHT
+jdk-21.0.1/legal/jdk.xml.dom/LICENSE
+jdk-21.0.1/legal/jdk.zipfs/COPYRIGHT
+jdk-21.0.1/legal/jdk.zipfs/LICENSE
+jdk-21.0.1/lib/classlist
+jdk-21.0.1/lib/ct.sym
+jdk-21.0.1/lib/jexec
+jdk-21.0.1/lib/jfr/default.jfc
+jdk-21.0.1/lib/jfr/profile.jfc
+jdk-21.0.1/lib/jrt-fs.jar
+jdk-21.0.1/lib/jspawnhelper
+jdk-21.0.1/lib/jvm.cfg
+jdk-21.0.1/lib/libattach.so
+jdk-21.0.1/lib/libawt.so
+jdk-21.0.1/lib/libawt_headless.so
+jdk-21.0.1/lib/libawt_xawt.so
+jdk-21.0.1/lib/libdt_socket.so
+jdk-21.0.1/lib/libextnet.so
+jdk-21.0.1/lib/libfontmanager.so
+jdk-21.0.1/lib/libinstrument.so
+jdk-21.0.1/lib/libj2gss.so
+jdk-21.0.1/lib/libj2pcsc.so
+jdk-21.0.1/lib/libj2pkcs11.so
+jdk-21.0.1/lib/libjaas.so
+jdk-21.0.1/lib/libjava.so
+jdk-21.0.1/lib/libjavajpeg.so
+jdk-21.0.1/lib/libjawt.so
+jdk-21.0.1/lib/libjdwp.so
+jdk-21.0.1/lib/libjimage.so
+jdk-21.0.1/lib/libjli.so
+jdk-21.0.1/lib/libjsig.so
+jdk-21.0.1/lib/libjsound.so
+jdk-21.0.1/lib/libjsvml.so
+jdk-21.0.1/lib/liblcms.so
+jdk-21.0.1/lib/lible.so
+jdk-21.0.1/lib/libmanagement.so
+jdk-21.0.1/lib/libmanagement_agent.so
+jdk-21.0.1/lib/libmanagement_ext.so
+jdk-21.0.1/lib/libmlib_image.so
+jdk-21.0.1/lib/libnet.so
+jdk-21.0.1/lib/libnio.so
+jdk-21.0.1/lib/libprefs.so
+jdk-21.0.1/lib/librmi.so
+jdk-21.0.1/lib/libsaproc.so
+jdk-21.0.1/lib/libsctp.so
+jdk-21.0.1/lib/libsplashscreen.so
+jdk-21.0.1/lib/libsyslookup.so
+jdk-21.0.1/lib/libverify.so
+jdk-21.0.1/lib/libzip.so
+jdk-21.0.1/lib/modules
+jdk-21.0.1/lib/psfont.properties.ja
+jdk-21.0.1/lib/psfontj2d.properties
+jdk-21.0.1/lib/security/blocked.certs
+jdk-21.0.1/lib/security/cacerts
+jdk-21.0.1/lib/security/default.policy
+jdk-21.0.1/lib/security/public_suffix_list.dat
+jdk-21.0.1/lib/server/classes.jsa
+jdk-21.0.1/lib/server/classes_nocoops.jsa
+jdk-21.0.1/lib/server/libjsig.so
+jdk-21.0.1/lib/server/libjvm.so
+jdk-21.0.1/lib/src.zip
+jdk-21.0.1/lib/tzdb.dat
+jdk-21.0.1/man/man1/jabswitch.1
+jdk-21.0.1/man/man1/jaccessinspector.1
+jdk-21.0.1/man/man1/jaccesswalker.1
+jdk-21.0.1/man/man1/jar.1
+jdk-21.0.1/man/man1/jarsigner.1
+jdk-21.0.1/man/man1/java.1
+jdk-21.0.1/man/man1/javac.1
+jdk-21.0.1/man/man1/javadoc.1
+jdk-21.0.1/man/man1/javap.1
+jdk-21.0.1/man/man1/jcmd.1
+jdk-21.0.1/man/man1/jconsole.1
+jdk-21.0.1/man/man1/jdb.1
+jdk-21.0.1/man/man1/jdeprscan.1
+jdk-21.0.1/man/man1/jdeps.1
+jdk-21.0.1/man/man1/jfr.1
+jdk-21.0.1/man/man1/jhsdb.1
+jdk-21.0.1/man/man1/jinfo.1
+jdk-21.0.1/man/man1/jlink.1
+jdk-21.0.1/man/man1/jmap.1
+jdk-21.0.1/man/man1/jmod.1
+jdk-21.0.1/man/man1/jpackage.1
+jdk-21.0.1/man/man1/jps.1
+jdk-21.0.1/man/man1/jrunscript.1
+jdk-21.0.1/man/man1/jshell.1
+jdk-21.0.1/man/man1/jstack.1
+jdk-21.0.1/man/man1/jstat.1
+jdk-21.0.1/man/man1/jstatd.1
+jdk-21.0.1/man/man1/jwebserver.1
+jdk-21.0.1/man/man1/keytool.1
+jdk-21.0.1/man/man1/kinit.1
+jdk-21.0.1/man/man1/klist.1
+jdk-21.0.1/man/man1/ktab.1
+jdk-21.0.1/man/man1/rmiregistry.1
+jdk-21.0.1/man/man1/serialver.1
+jdk-21.0.1/release
+toto@8a891c876bd3:~$ ls
+jdk-21.0.1  jdk-21_linux-x64_bin.tar.gz
+toto@8a891c876bd3:~$ cd jdk-21.0.1
+toto@8a891c876bd3:~/jdk-21.0.1$ ls
+LICENSE  README  bin  conf  include  jmods  legal  lib  man  release
+toto@8a891c876bd3:~/jdk-21.0.1$ cd bin
+toto@8a891c876bd3:~/jdk-21.0.1/bin$ ls
+jar        javap      jdeps   jlink     jrunscript  jwebserver
+jarsigner  jcmd       jfr     jmap      jshell      keytool
+java       jconsole   jhsdb   jmod      jstack      rmiregistry
+javac      jdb        jimage  jpackage  jstat       serialver
+javadoc    jdeprscan  jinfo   jps       jstatd
+toto@8a891c876bd3:~/jdk-21.0.1/bin$ su
+Password: 
+root@8a891c876bd3:/home/toto/jdk-21.0.1/bin# cd /home/toto/
+root@8a891c876bd3:/home/toto# ls
+jdk-21.0.1  jdk-21_linux-x64_bin.tar.gz
+root@8a891c876bd3:/home/toto# cd /
+root@8a891c876bd3:/# mv jdk-21 /bin
+mv: cannot stat 'jdk-21': No such file or directory
+root@8a891c876bd3:/# mv jdk-21.0.1 /bin
+mv: cannot stat 'jdk-21.0.1': No such file or directory
+root@8a891c876bd3:/# cd /home/toto/
+root@8a891c876bd3:/home/toto# mv jdk-21.0.1 /bin
+root@8a891c876bd3:/home/toto# ls
+jdk-21_linux-x64_bin.tar.gz
+root@8a891c876bd3:/home/toto# echo $PATH
+/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+root@8a891c876bd3:/home/toto# exit
+exit
+toto@8a891c876bd3:~/jdk-21.0.1/bin$ echo $PATH
+/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+toto@8a891c876bd3:~/jdk-21.0.1/bin$ export PATH=$PATH:/bin/jdk-21.0.1/bin
+toto@8a891c876bd3:~/jdk-21.0.1/bin$ java
+Usage: java [options] <mainclass> [args...]
+           (to execute a class)
+   or  java [options] -jar <jarfile> [args...]
+           (to execute a jar file)
+   or  java [options] -m <module>[/<mainclass>] [args...]
+       java [options] --module <module>[/<mainclass>] [args...]
+           (to execute the main class in a module)
+   or  java [options] <sourcefile> [args]
+           (to execute a single source-file program)
+
+ Arguments following the main class, source file, -jar <jarfile>,
+ -m or --module <module>/<mainclass> are passed as the arguments to
+ main class.
+
+ where options include:
+
+    -cp <class search path of directories and zip/jar files>
+    -classpath <class search path of directories and zip/jar files>
+    --class-path <class search path of directories and zip/jar files>
+                  A : separated list of directories, JAR archives,
+                  and ZIP archives to search for class files.
+    -p <module path>
+    --module-path <module path>...
+                  A : separated list of elements, each element is a file path
+                  to a module or a directory containing modules. Each module is either
+                  a modular JAR or an exploded-module directory.
+    --upgrade-module-path <module path>...
+                  A : separated list of elements, each element is a file path
+                  to a module or a directory containing modules to replace
+                  upgradeable modules in the runtime image. Each module is either
+                  a modular JAR or an exploded-module directory.
+    --add-modules <module name>[,<module name>...]
+                  root modules to resolve in addition to the initial module.
+                  <module name> can also be ALL-DEFAULT, ALL-SYSTEM,
+                  ALL-MODULE-PATH.
+    --enable-native-access <module name>[,<module name>...]
+                  modules that are permitted to perform restricted native operations.
+                  <module name> can also be ALL-UNNAMED.
+    --list-modules
+                  list observable modules and exit
+    -d <module name>
+    --describe-module <module name>
+                  describe a module and exit
+    --dry-run     create VM and load main class but do not execute main method.
+                  The --dry-run option may be useful for validating the
+                  command-line options such as the module system configuration.
+    --validate-modules
+                  validate all modules and exit
+                  The --validate-modules option may be useful for finding
+                  conflicts and other errors with modules on the module path.
+    -D<name>=<value>
+                  set a system property
+    -verbose:[class|module|gc|jni]
+                  enable verbose output for the given subsystem
+    -version      print product version to the error stream and exit
+    --version     print product version to the output stream and exit
+    -showversion  print product version to the error stream and continue
+    --show-version
+                  print product version to the output stream and continue
+    --show-module-resolution
+                  show module resolution output during startup
+    -? -h -help
+                  print this help message to the error stream
+    --help        print this help message to the output stream
+    -X            print help on extra options to the error stream
+    --help-extra  print help on extra options to the output stream
+    -ea[:<packagename>...|:<classname>]
+    -enableassertions[:<packagename>...|:<classname>]
+                  enable assertions with specified granularity
+    -da[:<packagename>...|:<classname>]
+    -disableassertions[:<packagename>...|:<classname>]
+                  disable assertions with specified granularity
+    -esa | -enablesystemassertions
+                  enable system assertions
+    -dsa | -disablesystemassertions
+                  disable system assertions
+    -agentlib:<libname>[=<options>]
+                  load native agent library <libname>, e.g. -agentlib:jdwp
+                  see also -agentlib:jdwp=help
+    -agentpath:<pathname>[=<options>]
+                  load native agent library by full pathname
+    -javaagent:<jarpath>[=<options>]
+                  load Java programming language agent, see java.lang.instrument
+    -splash:<imagepath>
+                  show splash screen with specified image
+                  HiDPI scaled images are automatically supported and used
+                  if available. The unscaled image filename, e.g. image.ext,
+                  should always be passed as the argument to the -splash option.
+                  The most appropriate scaled image provided will be picked up
+                  automatically.
+                  See the SplashScreen API documentation for more information
+    @argument files
+                  one or more argument files containing options
+    --disable-@files
+                  prevent further argument file expansion
+    --enable-preview
+                  allow classes to depend on preview features of this release
+To specify an argument for a long option, you can use --<name>=<value> or
+--<name> <value>.
+
+toto@8a891c876bd3:~/jdk-21.0.1/bin$ ls -a
+.          java     jcmd       jdeps   jinfo  jpackage    jstack      keytool
+..         javac    jconsole   jfr     jlink  jps         jstat       rmiregistry
+jar        javadoc  jdb        jhsdb   jmap   jrunscript  jstatd      serialver
+jarsigner  javap    jdeprscan  jimage  jmod   jshell      jwebserver
+toto@8a891c876bd3:~/jdk-21.0.1/bin$ cd /
+toto@8a891c876bd3:/$ ls -a
+.   .dockerenv  boot  etc   lib    lib64   media  opt   root  sbin  sys  usr
+..  bin         dev   home  lib32  libx32  mnt    proc  run   srv   tmp  var
+toto@8a891c876bd3:/$ cd ./
+toto@8a891c876bd3:/$ ls -a
+.   .dockerenv  boot  etc   lib    lib64   media  opt   root  sbin  sys  usr
+..  bin         dev   home  lib32  libx32  mnt    proc  run   srv   tmp  var
+toto@8a891c876bd3:/$ cd 
+toto@8a891c876bd3:~$ ls -a
+.  ..  .bash_logout  .bashrc  .profile  jdk-21_linux-x64_bin.tar.gz
+toto@8a891c876bd3:~$ rm jdk-21_linux-x64_bin.tar.gz
+toto@8a891c876bd3:~$ su 
+Password: 
+root@8a891c876bd3:/home/toto# apt-get update
+Hit:1 http://deb.debian.org/debian bookworm InRelease
+Hit:2 http://deb.debian.org/debian bookworm-updates InRelease
+Hit:3 http://deb.debian.org/debian-security bookworm-security InRelease
+Reading package lists... Done
+root@8a891c876bd3:/home/toto# apt-get install vi
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+E: Unable to locate package vi
+root@8a891c876bd3:/home/toto# cd    
+root@8a891c876bd3:~# apt-get update
+Hit:1 http://deb.debian.org/debian bookworm InRelease
+Hit:2 http://deb.debian.org/debian bookworm-updates InRelease
+Hit:3 http://deb.debian.org/debian-security bookworm-security InRelease
+Reading package lists... Done
+root@8a891c876bd3:~# apt-get install vi
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+E: Unable to locate package vi
+root@8a891c876bd3:~# vi
+bash: vi: command not found
+root@8a891c876bd3:~# exit
+exit
+toto@8a891c876bd3:~$ vi
+-bash: vi: command not found
+toto@8a891c876bd3:~$ su
+Password: 
+root@8a891c876bd3:/home/toto# apt-get install vi
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+E: Unable to locate package vi
+root@8a891c876bd3:/home/toto# apt-get install vim
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  libsodium23 vim-common vim-runtime xxd
+Suggested packages:
+  ctags vim-doc vim-scripts
+The following NEW packages will be installed:
+  libsodium23 vim vim-common vim-runtime xxd
+0 upgraded, 5 newly installed, 0 to remove and 0 not upgraded.
+Need to get 8962 kB of archives.
+After this operation, 41.8 MB of additional disk space will be used.
+Do you want to continue? [Y/n] Y
+Get:1 http://deb.debian.org/debian bookworm/main amd64 vim-common all 2:9.0.1378-2 [124 kB]
+Get:2 http://deb.debian.org/debian bookworm/main amd64 libsodium23 amd64 1.0.18-1 [161 kB]
+Get:3 http://deb.debian.org/debian bookworm/main amd64 vim-runtime all 2:9.0.1378-2 [7025 kB]
+Get:4 http://deb.debian.org/debian bookworm/main amd64 vim amd64 2:9.0.1378-2 [1567 kB]
+Get:5 http://deb.debian.org/debian bookworm/main amd64 xxd amd64 2:9.0.1378-2 [83.7 kB]
+Fetched 8962 kB in 1s (6676 kB/s)
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+        LANGUAGE = (unset),
+        LC_ALL = (unset),
+        LANG = "fr_FR.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+debconf: delaying package configuration, since apt-utils is not installed
+Selecting previously unselected package vim-common.
+(Reading database ... 10933 files and directories currently installed.)
+Preparing to unpack .../vim-common_2%3a9.0.1378-2_all.deb ...
+Unpacking vim-common (2:9.0.1378-2) ...
+Selecting previously unselected package libsodium23:amd64.
+Preparing to unpack .../libsodium23_1.0.18-1_amd64.deb ...
+Unpacking libsodium23:amd64 (1.0.18-1) ...
+Selecting previously unselected package vim-runtime.
+Preparing to unpack .../vim-runtime_2%3a9.0.1378-2_all.deb ...
+Adding 'diversion of /usr/share/vim/vim90/doc/help.txt to /usr/share/vim/vim90/doc/help.txt.vim-tiny by vim-runtime'
+Adding 'diversion of /usr/share/vim/vim90/doc/tags to /usr/share/vim/vim90/doc/tags.vim-tiny by vim-runtime'
+Unpacking vim-runtime (2:9.0.1378-2) ...
+Selecting previously unselected package vim.
+Preparing to unpack .../vim_2%3a9.0.1378-2_amd64.deb ...
+Unpacking vim (2:9.0.1378-2) ...
+Selecting previously unselected package xxd.
+Preparing to unpack .../xxd_2%3a9.0.1378-2_amd64.deb ...
+Unpacking xxd (2:9.0.1378-2) ...
+Setting up libsodium23:amd64 (1.0.18-1) ...
+Setting up xxd (2:9.0.1378-2) ...
+Setting up vim-common (2:9.0.1378-2) ...
+Setting up vim-runtime (2:9.0.1378-2) ...
+Setting up vim (2:9.0.1378-2) ...
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/editor (editor) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/ex (ex) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/rview (rview) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/rvim (rvim) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vi (vi) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/view (view) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vim (vim) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vimdiff (vimdiff) in auto mode
+Processing triggers for libc-bin (2.36-9+deb12u3) ...
+root@8a891c876bd3:/home/toto# exit
+exit
+toto@8a891c876bd3:~$ java echo "Hello World !"
+Error: Could not find or load main class echo
+Caused by: java.lang.ClassNotFoundException: echo
+toto@8a891c876bd3:~$ java print("Hello World !")
+-bash: syntax error near unexpected token `('
+toto@8a891c876bd3:~$ java printf("Hello World !")
+-bash: syntax error near unexpected token `('
+toto@8a891c876bd3:~$ touch HelloWolrd.java
+toto@8a891c876bd3:~$ Hellowolrd.java
+-bash: Hellowolrd.java: command not found
+toto@8a891c876bd3:~$ vi HelloWolrd.java
+toto@8a891c876bd3:~$ java HelloWolrd
+Error: Could not find or load main class HelloWolrd
+Caused by: java.lang.ClassNotFoundException: HelloWolrd
+toto@8a891c876bd3:~$ vi HelloWolrd.java
+toto@8a891c876bd3:~$ java HelloWolrd
+Error: Could not find or load main class HelloWolrd
+Caused by: java.lang.ClassNotFoundException: HelloWolrd
+toto@8a891c876bd3:~$ javac HelloWolrd.java
+toto@8a891c876bd3:~$ java HelloWolrd
+Hello, World
+toto@8a891c876bd3:~$ 
