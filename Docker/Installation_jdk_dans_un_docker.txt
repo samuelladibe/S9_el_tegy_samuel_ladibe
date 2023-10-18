@@ -1,476 +1,3 @@
-eleve@bdtn:~/Téléchargements$ ssh toto@localhost -p 22
-The authenticity of host 'localhost (::1)' can't be established.
-ED25519 key fingerprint is SHA256:hCxz1NUvRYmyuNde/bFoxqEweKhUHpXs7ENmq24CDKY.
-This host key is known by the following other names/addresses:
-    ~/.ssh/known_hosts:1: [hashed name]
-Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
-Warning: Permanently added 'localhost' (ED25519) to the list of known hosts.
-toto@localhost's password: 
-Linux 8a891c876bd3 6.1.0-13-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.1.55-1 (2023-09-29) x86_64
-
-The programs included with the Debian GNU/Linux system are free software;
-the exact distribution terms for each program are described in the
-individual files in /usr/share/doc/*/copyright.
-
-Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
-permitted by applicable law.
-toto@8a891c876bd3:~$ ls
-jdk-21_linux-x64_bin.tar.gz
-toto@8a891c876bd3:~$ tar xzvf jdk-21_linux-x64_bin.tar.gz
-jdk-21.0.1/LICENSE
-jdk-21.0.1/README
-jdk-21.0.1/bin/jar
-jdk-21.0.1/bin/jarsigner
-jdk-21.0.1/bin/java
-jdk-21.0.1/bin/javac
-jdk-21.0.1/bin/javadoc
-jdk-21.0.1/bin/javap
-jdk-21.0.1/bin/jcmd
-jdk-21.0.1/bin/jconsole
-jdk-21.0.1/bin/jdb
-jdk-21.0.1/bin/jdeprscan
-jdk-21.0.1/bin/jdeps
-jdk-21.0.1/bin/jfr
-jdk-21.0.1/bin/jhsdb
-jdk-21.0.1/bin/jimage
-jdk-21.0.1/bin/jinfo
-jdk-21.0.1/bin/jlink
-jdk-21.0.1/bin/jmap
-jdk-21.0.1/bin/jmod
-jdk-21.0.1/bin/jpackage
-jdk-21.0.1/bin/jps
-jdk-21.0.1/bin/jrunscript
-jdk-21.0.1/bin/jshell
-jdk-21.0.1/bin/jstack
-jdk-21.0.1/bin/jstat
-jdk-21.0.1/bin/jstatd
-jdk-21.0.1/bin/jwebserver
-jdk-21.0.1/bin/keytool
-jdk-21.0.1/bin/rmiregistry
-jdk-21.0.1/bin/serialver
-jdk-21.0.1/conf/jaxp.properties
-jdk-21.0.1/conf/logging.properties
-jdk-21.0.1/conf/management/jmxremote.access
-jdk-21.0.1/conf/management/jmxremote.password.template
-jdk-21.0.1/conf/management/management.properties
-jdk-21.0.1/conf/net.properties
-jdk-21.0.1/conf/sdp/sdp.conf.template
-jdk-21.0.1/conf/security/java.policy
-jdk-21.0.1/conf/security/java.security
-jdk-21.0.1/conf/security/policy/README.txt
-jdk-21.0.1/conf/security/policy/limited/default_US_export.policy
-jdk-21.0.1/conf/security/policy/limited/default_local.policy
-jdk-21.0.1/conf/security/policy/limited/exempt_local.policy
-jdk-21.0.1/conf/security/policy/unlimited/default_US_export.policy
-jdk-21.0.1/conf/security/policy/unlimited/default_local.policy
-jdk-21.0.1/conf/sound.properties
-jdk-21.0.1/include/classfile_constants.h
-jdk-21.0.1/include/jawt.h
-jdk-21.0.1/include/jdwpTransport.h
-jdk-21.0.1/include/jni.h
-jdk-21.0.1/include/jvmti.h
-jdk-21.0.1/include/jvmticmlr.h
-jdk-21.0.1/include/linux/jawt_md.h
-jdk-21.0.1/include/linux/jni_md.h
-jdk-21.0.1/jmods/java.base.jmod
-jdk-21.0.1/jmods/java.compiler.jmod
-jdk-21.0.1/jmods/java.datatransfer.jmod
-jdk-21.0.1/jmods/java.desktop.jmod
-jdk-21.0.1/jmods/java.instrument.jmod
-jdk-21.0.1/jmods/java.logging.jmod
-jdk-21.0.1/jmods/java.management.jmod
-jdk-21.0.1/jmods/java.management.rmi.jmod
-jdk-21.0.1/jmods/java.naming.jmod
-jdk-21.0.1/jmods/java.net.http.jmod
-jdk-21.0.1/jmods/java.prefs.jmod
-jdk-21.0.1/jmods/java.rmi.jmod
-jdk-21.0.1/jmods/java.scripting.jmod
-jdk-21.0.1/jmods/java.se.jmod
-jdk-21.0.1/jmods/java.security.jgss.jmod
-jdk-21.0.1/jmods/java.security.sasl.jmod
-jdk-21.0.1/jmods/java.smartcardio.jmod
-jdk-21.0.1/jmods/java.sql.jmod
-jdk-21.0.1/jmods/java.sql.rowset.jmod
-jdk-21.0.1/jmods/java.transaction.xa.jmod
-jdk-21.0.1/jmods/java.xml.crypto.jmod
-jdk-21.0.1/jmods/java.xml.jmod
-jdk-21.0.1/jmods/jdk.accessibility.jmod
-jdk-21.0.1/jmods/jdk.attach.jmod
-jdk-21.0.1/jmods/jdk.charsets.jmod
-jdk-21.0.1/jmods/jdk.compiler.jmod
-jdk-21.0.1/jmods/jdk.crypto.cryptoki.jmod
-jdk-21.0.1/jmods/jdk.crypto.ec.jmod
-jdk-21.0.1/jmods/jdk.dynalink.jmod
-jdk-21.0.1/jmods/jdk.editpad.jmod
-jdk-21.0.1/jmods/jdk.hotspot.agent.jmod
-jdk-21.0.1/jmods/jdk.httpserver.jmod
-jdk-21.0.1/jmods/jdk.incubator.vector.jmod
-jdk-21.0.1/jmods/jdk.internal.ed.jmod
-jdk-21.0.1/jmods/jdk.internal.jvmstat.jmod
-jdk-21.0.1/jmods/jdk.internal.le.jmod
-jdk-21.0.1/jmods/jdk.internal.opt.jmod
-jdk-21.0.1/jmods/jdk.internal.vm.ci.jmod
-jdk-21.0.1/jmods/jdk.internal.vm.compiler.jmod
-jdk-21.0.1/jmods/jdk.internal.vm.compiler.management.jmod
-jdk-21.0.1/jmods/jdk.jartool.jmod
-jdk-21.0.1/jmods/jdk.javadoc.jmod
-jdk-21.0.1/jmods/jdk.jcmd.jmod
-jdk-21.0.1/jmods/jdk.jconsole.jmod
-jdk-21.0.1/jmods/jdk.jdeps.jmod
-jdk-21.0.1/jmods/jdk.jdi.jmod
-jdk-21.0.1/jmods/jdk.jdwp.agent.jmod
-jdk-21.0.1/jmods/jdk.jfr.jmod
-jdk-21.0.1/jmods/jdk.jlink.jmod
-jdk-21.0.1/jmods/jdk.jpackage.jmod
-jdk-21.0.1/jmods/jdk.jshell.jmod
-jdk-21.0.1/jmods/jdk.jsobject.jmod
-jdk-21.0.1/jmods/jdk.jstatd.jmod
-jdk-21.0.1/jmods/jdk.localedata.jmod
-jdk-21.0.1/jmods/jdk.management.agent.jmod
-jdk-21.0.1/jmods/jdk.management.jfr.jmod
-jdk-21.0.1/jmods/jdk.management.jmod
-jdk-21.0.1/jmods/jdk.naming.dns.jmod
-jdk-21.0.1/jmods/jdk.naming.rmi.jmod
-jdk-21.0.1/jmods/jdk.net.jmod
-jdk-21.0.1/jmods/jdk.nio.mapmode.jmod
-jdk-21.0.1/jmods/jdk.random.jmod
-jdk-21.0.1/jmods/jdk.sctp.jmod
-jdk-21.0.1/jmods/jdk.security.auth.jmod
-jdk-21.0.1/jmods/jdk.security.jgss.jmod
-jdk-21.0.1/jmods/jdk.unsupported.desktop.jmod
-jdk-21.0.1/jmods/jdk.unsupported.jmod
-jdk-21.0.1/jmods/jdk.xml.dom.jmod
-jdk-21.0.1/jmods/jdk.zipfs.jmod
-jdk-21.0.1/legal/java.base/COPYRIGHT
-jdk-21.0.1/legal/java.base/LICENSE
-jdk-21.0.1/legal/java.base/aes.md
-jdk-21.0.1/legal/java.base/asm.md
-jdk-21.0.1/legal/java.base/c-libutl.md
-jdk-21.0.1/legal/java.base/cldr.md
-jdk-21.0.1/legal/java.base/icu.md
-jdk-21.0.1/legal/java.base/public_suffix.md
-jdk-21.0.1/legal/java.base/unicode.md
-jdk-21.0.1/legal/java.compiler/COPYRIGHT
-jdk-21.0.1/legal/java.compiler/LICENSE
-jdk-21.0.1/legal/java.datatransfer/COPYRIGHT
-jdk-21.0.1/legal/java.datatransfer/LICENSE
-jdk-21.0.1/legal/java.desktop/COPYRIGHT
-jdk-21.0.1/legal/java.desktop/LICENSE
-jdk-21.0.1/legal/java.desktop/colorimaging.md
-jdk-21.0.1/legal/java.desktop/giflib.md
-jdk-21.0.1/legal/java.desktop/harfbuzz.md
-jdk-21.0.1/legal/java.desktop/jpeg.md
-jdk-21.0.1/legal/java.desktop/lcms.md
-jdk-21.0.1/legal/java.desktop/libpng.md
-jdk-21.0.1/legal/java.desktop/mesa3d.md
-jdk-21.0.1/legal/java.desktop/pipewire.md
-jdk-21.0.1/legal/java.desktop/xwd.md
-jdk-21.0.1/legal/java.instrument/COPYRIGHT
-jdk-21.0.1/legal/java.instrument/LICENSE
-jdk-21.0.1/legal/java.logging/COPYRIGHT
-jdk-21.0.1/legal/java.logging/LICENSE
-jdk-21.0.1/legal/java.management.rmi/COPYRIGHT
-jdk-21.0.1/legal/java.management.rmi/LICENSE
-jdk-21.0.1/legal/java.management/COPYRIGHT
-jdk-21.0.1/legal/java.management/LICENSE
-jdk-21.0.1/legal/java.naming/COPYRIGHT
-jdk-21.0.1/legal/java.naming/LICENSE
-jdk-21.0.1/legal/java.net.http/COPYRIGHT
-jdk-21.0.1/legal/java.net.http/LICENSE
-jdk-21.0.1/legal/java.prefs/COPYRIGHT
-jdk-21.0.1/legal/java.prefs/LICENSE
-jdk-21.0.1/legal/java.rmi/COPYRIGHT
-jdk-21.0.1/legal/java.rmi/LICENSE
-jdk-21.0.1/legal/java.scripting/COPYRIGHT
-jdk-21.0.1/legal/java.scripting/LICENSE
-jdk-21.0.1/legal/java.se/COPYRIGHT
-jdk-21.0.1/legal/java.se/LICENSE
-jdk-21.0.1/legal/java.security.jgss/COPYRIGHT
-jdk-21.0.1/legal/java.security.jgss/LICENSE
-jdk-21.0.1/legal/java.security.sasl/COPYRIGHT
-jdk-21.0.1/legal/java.security.sasl/LICENSE
-jdk-21.0.1/legal/java.smartcardio/COPYRIGHT
-jdk-21.0.1/legal/java.smartcardio/LICENSE
-jdk-21.0.1/legal/java.smartcardio/pcsclite.md
-jdk-21.0.1/legal/java.sql.rowset/COPYRIGHT
-jdk-21.0.1/legal/java.sql.rowset/LICENSE
-jdk-21.0.1/legal/java.sql/COPYRIGHT
-jdk-21.0.1/legal/java.sql/LICENSE
-jdk-21.0.1/legal/java.transaction.xa/COPYRIGHT
-jdk-21.0.1/legal/java.transaction.xa/LICENSE
-jdk-21.0.1/legal/java.xml.crypto/COPYRIGHT
-jdk-21.0.1/legal/java.xml.crypto/LICENSE
-jdk-21.0.1/legal/java.xml.crypto/santuario.md
-jdk-21.0.1/legal/java.xml/COPYRIGHT
-jdk-21.0.1/legal/java.xml/LICENSE
-jdk-21.0.1/legal/java.xml/bcel.md
-jdk-21.0.1/legal/java.xml/dom.md
-jdk-21.0.1/legal/java.xml/jcup.md
-jdk-21.0.1/legal/java.xml/xalan.md
-jdk-21.0.1/legal/java.xml/xerces.md
-jdk-21.0.1/legal/jdk.accessibility/COPYRIGHT
-jdk-21.0.1/legal/jdk.accessibility/LICENSE
-jdk-21.0.1/legal/jdk.attach/COPYRIGHT
-jdk-21.0.1/legal/jdk.attach/LICENSE
-jdk-21.0.1/legal/jdk.charsets/COPYRIGHT
-jdk-21.0.1/legal/jdk.charsets/LICENSE
-jdk-21.0.1/legal/jdk.compiler/COPYRIGHT
-jdk-21.0.1/legal/jdk.compiler/LICENSE
-jdk-21.0.1/legal/jdk.crypto.cryptoki/COPYRIGHT
-jdk-21.0.1/legal/jdk.crypto.cryptoki/LICENSE
-jdk-21.0.1/legal/jdk.crypto.cryptoki/pkcs11cryptotoken.md
-jdk-21.0.1/legal/jdk.crypto.cryptoki/pkcs11wrapper.md
-jdk-21.0.1/legal/jdk.crypto.ec/COPYRIGHT
-jdk-21.0.1/legal/jdk.crypto.ec/LICENSE
-jdk-21.0.1/legal/jdk.dynalink/COPYRIGHT
-jdk-21.0.1/legal/jdk.dynalink/LICENSE
-jdk-21.0.1/legal/jdk.dynalink/dynalink.md
-jdk-21.0.1/legal/jdk.editpad/COPYRIGHT
-jdk-21.0.1/legal/jdk.editpad/LICENSE
-jdk-21.0.1/legal/jdk.hotspot.agent/COPYRIGHT
-jdk-21.0.1/legal/jdk.hotspot.agent/LICENSE
-jdk-21.0.1/legal/jdk.httpserver/COPYRIGHT
-jdk-21.0.1/legal/jdk.httpserver/LICENSE
-jdk-21.0.1/legal/jdk.incubator.vector/COPYRIGHT
-jdk-21.0.1/legal/jdk.incubator.vector/LICENSE
-jdk-21.0.1/legal/jdk.internal.ed/COPYRIGHT
-jdk-21.0.1/legal/jdk.internal.ed/LICENSE
-jdk-21.0.1/legal/jdk.internal.jvmstat/COPYRIGHT
-jdk-21.0.1/legal/jdk.internal.jvmstat/LICENSE
-jdk-21.0.1/legal/jdk.internal.le/COPYRIGHT
-jdk-21.0.1/legal/jdk.internal.le/LICENSE
-jdk-21.0.1/legal/jdk.internal.le/jline.md
-jdk-21.0.1/legal/jdk.internal.opt/COPYRIGHT
-jdk-21.0.1/legal/jdk.internal.opt/LICENSE
-jdk-21.0.1/legal/jdk.internal.opt/jopt-simple.md
-jdk-21.0.1/legal/jdk.internal.vm.ci/COPYRIGHT
-jdk-21.0.1/legal/jdk.internal.vm.ci/LICENSE
-jdk-21.0.1/legal/jdk.internal.vm.compiler.management/COPYRIGHT
-jdk-21.0.1/legal/jdk.internal.vm.compiler.management/LICENSE
-jdk-21.0.1/legal/jdk.internal.vm.compiler/COPYRIGHT
-jdk-21.0.1/legal/jdk.internal.vm.compiler/LICENSE
-jdk-21.0.1/legal/jdk.jartool/COPYRIGHT
-jdk-21.0.1/legal/jdk.jartool/LICENSE
-jdk-21.0.1/legal/jdk.javadoc/COPYRIGHT
-jdk-21.0.1/legal/jdk.javadoc/LICENSE
-jdk-21.0.1/legal/jdk.javadoc/jquery.md
-jdk-21.0.1/legal/jdk.javadoc/jqueryUI.md
-jdk-21.0.1/legal/jdk.jcmd/COPYRIGHT
-jdk-21.0.1/legal/jdk.jcmd/LICENSE
-jdk-21.0.1/legal/jdk.jconsole/COPYRIGHT
-jdk-21.0.1/legal/jdk.jconsole/LICENSE
-jdk-21.0.1/legal/jdk.jdeps/COPYRIGHT
-jdk-21.0.1/legal/jdk.jdeps/LICENSE
-jdk-21.0.1/legal/jdk.jdi/COPYRIGHT
-jdk-21.0.1/legal/jdk.jdi/LICENSE
-jdk-21.0.1/legal/jdk.jdwp.agent/COPYRIGHT
-jdk-21.0.1/legal/jdk.jdwp.agent/LICENSE
-jdk-21.0.1/legal/jdk.jfr/COPYRIGHT
-jdk-21.0.1/legal/jdk.jfr/LICENSE
-jdk-21.0.1/legal/jdk.jlink/COPYRIGHT
-jdk-21.0.1/legal/jdk.jlink/LICENSE
-jdk-21.0.1/legal/jdk.jpackage/COPYRIGHT
-jdk-21.0.1/legal/jdk.jpackage/LICENSE
-jdk-21.0.1/legal/jdk.jshell/COPYRIGHT
-jdk-21.0.1/legal/jdk.jshell/LICENSE
-jdk-21.0.1/legal/jdk.jsobject/COPYRIGHT
-jdk-21.0.1/legal/jdk.jsobject/LICENSE
-jdk-21.0.1/legal/jdk.jstatd/COPYRIGHT
-jdk-21.0.1/legal/jdk.jstatd/LICENSE
-jdk-21.0.1/legal/jdk.localedata/COPYRIGHT
-jdk-21.0.1/legal/jdk.localedata/LICENSE
-jdk-21.0.1/legal/jdk.localedata/cldr.md
-jdk-21.0.1/legal/jdk.localedata/thaidict.md
-jdk-21.0.1/legal/jdk.management.agent/COPYRIGHT
-jdk-21.0.1/legal/jdk.management.agent/LICENSE
-jdk-21.0.1/legal/jdk.management.jfr/COPYRIGHT
-jdk-21.0.1/legal/jdk.management.jfr/LICENSE
-jdk-21.0.1/legal/jdk.management/COPYRIGHT
-jdk-21.0.1/legal/jdk.management/LICENSE
-jdk-21.0.1/legal/jdk.naming.dns/COPYRIGHT
-jdk-21.0.1/legal/jdk.naming.dns/LICENSE
-jdk-21.0.1/legal/jdk.naming.rmi/COPYRIGHT
-jdk-21.0.1/legal/jdk.naming.rmi/LICENSE
-jdk-21.0.1/legal/jdk.net/COPYRIGHT
-jdk-21.0.1/legal/jdk.net/LICENSE
-jdk-21.0.1/legal/jdk.nio.mapmode/COPYRIGHT
-jdk-21.0.1/legal/jdk.nio.mapmode/LICENSE
-jdk-21.0.1/legal/jdk.random/COPYRIGHT
-jdk-21.0.1/legal/jdk.random/LICENSE
-jdk-21.0.1/legal/jdk.sctp/COPYRIGHT
-jdk-21.0.1/legal/jdk.sctp/LICENSE
-jdk-21.0.1/legal/jdk.security.auth/COPYRIGHT
-jdk-21.0.1/legal/jdk.security.auth/LICENSE
-jdk-21.0.1/legal/jdk.security.jgss/COPYRIGHT
-jdk-21.0.1/legal/jdk.security.jgss/LICENSE
-jdk-21.0.1/legal/jdk.unsupported.desktop/COPYRIGHT
-jdk-21.0.1/legal/jdk.unsupported.desktop/LICENSE
-jdk-21.0.1/legal/jdk.unsupported/COPYRIGHT
-jdk-21.0.1/legal/jdk.unsupported/LICENSE
-jdk-21.0.1/legal/jdk.xml.dom/COPYRIGHT
-jdk-21.0.1/legal/jdk.xml.dom/LICENSE
-jdk-21.0.1/legal/jdk.zipfs/COPYRIGHT
-jdk-21.0.1/legal/jdk.zipfs/LICENSE
-jdk-21.0.1/lib/classlist
-jdk-21.0.1/lib/ct.sym
-jdk-21.0.1/lib/jexec
-jdk-21.0.1/lib/jfr/default.jfc
-jdk-21.0.1/lib/jfr/profile.jfc
-jdk-21.0.1/lib/jrt-fs.jar
-jdk-21.0.1/lib/jspawnhelper
-jdk-21.0.1/lib/jvm.cfg
-jdk-21.0.1/lib/libattach.so
-jdk-21.0.1/lib/libawt.so
-jdk-21.0.1/lib/libawt_headless.so
-jdk-21.0.1/lib/libawt_xawt.so
-jdk-21.0.1/lib/libdt_socket.so
-jdk-21.0.1/lib/libextnet.so
-jdk-21.0.1/lib/libfontmanager.so
-jdk-21.0.1/lib/libinstrument.so
-jdk-21.0.1/lib/libj2gss.so
-jdk-21.0.1/lib/libj2pcsc.so
-jdk-21.0.1/lib/libj2pkcs11.so
-jdk-21.0.1/lib/libjaas.so
-jdk-21.0.1/lib/libjava.so
-jdk-21.0.1/lib/libjavajpeg.so
-jdk-21.0.1/lib/libjawt.so
-jdk-21.0.1/lib/libjdwp.so
-jdk-21.0.1/lib/libjimage.so
-jdk-21.0.1/lib/libjli.so
-jdk-21.0.1/lib/libjsig.so
-jdk-21.0.1/lib/libjsound.so
-jdk-21.0.1/lib/libjsvml.so
-jdk-21.0.1/lib/liblcms.so
-jdk-21.0.1/lib/lible.so
-jdk-21.0.1/lib/libmanagement.so
-jdk-21.0.1/lib/libmanagement_agent.so
-jdk-21.0.1/lib/libmanagement_ext.so
-jdk-21.0.1/lib/libmlib_image.so
-jdk-21.0.1/lib/libnet.so
-jdk-21.0.1/lib/libnio.so
-jdk-21.0.1/lib/libprefs.so
-jdk-21.0.1/lib/librmi.so
-jdk-21.0.1/lib/libsaproc.so
-jdk-21.0.1/lib/libsctp.so
-jdk-21.0.1/lib/libsplashscreen.so
-jdk-21.0.1/lib/libsyslookup.so
-jdk-21.0.1/lib/libverify.so
-jdk-21.0.1/lib/libzip.so
-jdk-21.0.1/lib/modules
-jdk-21.0.1/lib/psfont.properties.ja
-jdk-21.0.1/lib/psfontj2d.properties
-jdk-21.0.1/lib/security/blocked.certs
-jdk-21.0.1/lib/security/cacerts
-jdk-21.0.1/lib/security/default.policy
-jdk-21.0.1/lib/security/public_suffix_list.dat
-jdk-21.0.1/lib/server/classes.jsa
-jdk-21.0.1/lib/server/classes_nocoops.jsa
-jdk-21.0.1/lib/server/libjsig.so
-jdk-21.0.1/lib/server/libjvm.so
-jdk-21.0.1/lib/src.zip
-jdk-21.0.1/lib/tzdb.dat
-jdk-21.0.1/man/man1/jabswitch.1
-jdk-21.0.1/man/man1/jaccessinspector.1
-jdk-21.0.1/man/man1/jaccesswalker.1
-jdk-21.0.1/man/man1/jar.1
-jdk-21.0.1/man/man1/jarsigner.1
-jdk-21.0.1/man/man1/java.1
-jdk-21.0.1/man/man1/javac.1
-jdk-21.0.1/man/man1/javadoc.1
-jdk-21.0.1/man/man1/javap.1
-jdk-21.0.1/man/man1/jcmd.1
-jdk-21.0.1/man/man1/jconsole.1
-jdk-21.0.1/man/man1/jdb.1
-jdk-21.0.1/man/man1/jdeprscan.1
-jdk-21.0.1/man/man1/jdeps.1
-jdk-21.0.1/man/man1/jfr.1
-jdk-21.0.1/man/man1/jhsdb.1
-jdk-21.0.1/man/man1/jinfo.1
-jdk-21.0.1/man/man1/jlink.1
-jdk-21.0.1/man/man1/jmap.1
-jdk-21.0.1/man/man1/jmod.1
-jdk-21.0.1/man/man1/jpackage.1
-jdk-21.0.1/man/man1/jps.1
-jdk-21.0.1/man/man1/jrunscript.1
-jdk-21.0.1/man/man1/jshell.1
-jdk-21.0.1/man/man1/jstack.1
-jdk-21.0.1/man/man1/jstat.1
-jdk-21.0.1/man/man1/jstatd.1
-jdk-21.0.1/man/man1/jwebserver.1
-jdk-21.0.1/man/man1/keytool.1
-jdk-21.0.1/man/man1/kinit.1
-jdk-21.0.1/man/man1/klist.1
-jdk-21.0.1/man/man1/ktab.1
-jdk-21.0.1/man/man1/rmiregistry.1
-jdk-21.0.1/man/man1/serialver.1
-jdk-21.0.1/release
-toto@8a891c876bd3:~$ ls
-jdk-21.0.1  jdk-21_linux-x64_bin.tar.gz
-toto@8a891c876bd3:~$ cd jdk-21.0.1
-toto@8a891c876bd3:~/jdk-21.0.1$ ls
-LICENSE  README  bin  conf  include  jmods  legal  lib  man  release
-toto@8a891c876bd3:~/jdk-21.0.1$ cd bin
-toto@8a891c876bd3:~/jdk-21.0.1/bin$ ls
-jar        javap      jdeps   jlink     jrunscript  jwebserver
-jarsigner  jcmd       jfr     jmap      jshell      keytool
-java       jconsole   jhsdb   jmod      jstack      rmiregistry
-javac      jdb        jimage  jpackage  jstat       serialver
-javadoc    jdeprscan  jinfo   jps       jstatd
-toto@8a891c876bd3:~/jdk-21.0.1/bin$ su
-Password: 
-root@8a891c876bd3:/home/toto/jdk-21.0.1/bin# cd /home/toto/
-root@8a891c876bd3:/home/toto# ls
-jdk-21.0.1  jdk-21_linux-x64_bin.tar.gz
-root@8a891c876bd3:/home/toto# cd /
-root@8a891c876bd3:/# mv jdk-21 /bin
-mv: cannot stat 'jdk-21': No such file or directory
-root@8a891c876bd3:/# mv jdk-21.0.1 /bin
-mv: cannot stat 'jdk-21.0.1': No such file or directory
-root@8a891c876bd3:/# cd /home/toto/
-root@8a891c876bd3:/home/toto# mv jdk-21.0.1 /bin
-root@8a891c876bd3:/home/toto# ls
-jdk-21_linux-x64_bin.tar.gz
-root@8a891c876bd3:/home/toto# echo $PATH
-/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
-root@8a891c876bd3:/home/toto# exit
-exit
-toto@8a891c876bd3:~/jdk-21.0.1/bin$ echo $PATH
-/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
-toto@8a891c876bd3:~/jdk-21.0.1/bin$ export PATH=$PATH:/bin/jdk-21.0.1/bin
-toto@8a891c876bd3:~/jdk-21.0.1/bin$ java
-Usage: java [options] <mainclass> [args...]
-           (to execute a class)
-   or  java [options] -jar <jarfile> [args...]
-           (to execute a jar file)
-   or  java [options] -m <module>[/<mainclass>] [args...]
-       java [options] --module <module>[/<mainclass>] [args...]
-           (to execute the main class in a module)
-   or  java [options] <sourcefile> [args]
-           (to execute a single source-file program)
-
- Arguments following the main class, source file, -jar <jarfile>,
- -m or --module <module>/<mainclass> are passed as the arguments to
- main class.
-
- where options include:
-
-    -cp <class search path of directories and zip/jar files>
-    -classpath <class search path of directories and zip/jar files>
-    --class-path <class search path of directories and zip/jar files>
-                  A : separated list of directories, JAR archives,
-                  and ZIP archives to search for class files.
-    -p <module path>
-    --module-path <module path>...
-                  A : separated list of elements, each element is a file path
-                  to a module or a directory containing modules. Each module is either
-                  a modular JAR or an exploded-module directory.
-    --upgrade-module-path <module path>...
-                  A : separated list of elements, each element is a file path
-                  to a module or a directory containing modules to replace
-                  upgradeable modules in the runtime image. Each module is either
-                  a modular JAR or an exploded-module directory.
-    --add-modules <module name>[,<module name>...]
-                  root modules to resolve in addition to the initial module.
                   <module name> can also be ALL-DEFAULT, ALL-SYSTEM,
                   ALL-MODULE-PATH.
     --enable-native-access <module name>[,<module name>...]
@@ -674,4 +201,689 @@ Caused by: java.lang.ClassNotFoundException: HelloWolrd
 toto@8a891c876bd3:~$ javac HelloWolrd.java
 toto@8a891c876bd3:~$ java HelloWolrd
 Hello, World
-toto@8a891c876bd3:~$ 
+toto@8a891c876bd3:~$ exit
+logout
+Connection to localhost closed.
+eleve@bdtn:~/Téléchargements$ cd
+eleve@bdtn:~$ docker container run -it debian_vi
+Unable to find image 'debian_vi:latest' locally
+docker: Error response from daemon: pull access denied for debian_vi, repository does not exist or may require 'docker login': denied: requested access to the resource is denied.
+See 'docker run --help'.
+eleve@bdtn:~$ docker container run -it debian
+root@be9a2307618a:/# apt-get update
+Get:1 http://deb.debian.org/debian bookworm InRelease [151 kB]
+Get:2 http://deb.debian.org/debian bookworm-updates InRelease [52.1 kB]
+Get:3 http://deb.debian.org/debian-security bookworm-security InRelease [48.0 kB]
+Get:4 http://deb.debian.org/debian bookworm/main amd64 Packages [8780 kB]
+Get:5 http://deb.debian.org/debian bookworm-updates/main amd64 Packages [6408 B]
+Get:6 http://deb.debian.org/debian-security bookworm-security/main amd64 Packages [86.2 kB]
+Fetched 9124 kB in 1s (6228 kB/s)               
+Reading package lists... Done
+root@be9a2307618a:/# apt-get install vim
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  libgpm2 libsodium23 vim-common vim-runtime xxd
+Suggested packages:
+  gpm ctags vim-doc vim-scripts
+The following NEW packages will be installed:
+  libgpm2 libsodium23 vim vim-common vim-runtime xxd
+0 upgraded, 6 newly installed, 0 to remove and 0 not upgraded.
+Need to get 8976 kB of archives.
+After this operation, 41.9 MB of additional disk space will be used.
+Do you want to continue? [Y/n] Y
+Get:1 http://deb.debian.org/debian bookworm/main amd64 vim-common all 2:9.0.1378-2 [124 kB]
+Get:2 http://deb.debian.org/debian bookworm/main amd64 libgpm2 amd64 1.20.7-10+b1 [14.2 kB]
+Get:3 http://deb.debian.org/debian bookworm/main amd64 libsodium23 amd64 1.0.18-1 [161 kB]
+Get:4 http://deb.debian.org/debian bookworm/main amd64 vim-runtime all 2:9.0.1378-2 [7025 kB]
+Get:5 http://deb.debian.org/debian bookworm/main amd64 vim amd64 2:9.0.1378-2 [1567 kB]
+Get:6 http://deb.debian.org/debian bookworm/main amd64 xxd amd64 2:9.0.1378-2 [83.7 kB]
+Fetched 8976 kB in 1s (16.3 MB/s)
+debconf: delaying package configuration, since apt-utils is not installed
+Selecting previously unselected package vim-common.
+(Reading database ... 6098 files and directories currently installed.)
+Preparing to unpack .../0-vim-common_2%3a9.0.1378-2_all.deb ...
+Unpacking vim-common (2:9.0.1378-2) ...
+Selecting previously unselected package libgpm2:amd64.
+Preparing to unpack .../1-libgpm2_1.20.7-10+b1_amd64.deb ...
+Unpacking libgpm2:amd64 (1.20.7-10+b1) ...
+Selecting previously unselected package libsodium23:amd64.
+Preparing to unpack .../2-libsodium23_1.0.18-1_amd64.deb ...
+Unpacking libsodium23:amd64 (1.0.18-1) ...
+Selecting previously unselected package vim-runtime.
+Preparing to unpack .../3-vim-runtime_2%3a9.0.1378-2_all.deb ...
+Adding 'diversion of /usr/share/vim/vim90/doc/help.txt to /usr/share/vim/vim90/doc/help.txt.vim-tiny by vim-runtime'
+Adding 'diversion of /usr/share/vim/vim90/doc/tags to /usr/share/vim/vim90/doc/tags.vim-tiny by vim-runtime'
+Unpacking vim-runtime (2:9.0.1378-2) ...
+Selecting previously unselected package vim.
+Preparing to unpack .../4-vim_2%3a9.0.1378-2_amd64.deb ...
+Unpacking vim (2:9.0.1378-2) ...
+Selecting previously unselected package xxd.
+Preparing to unpack .../5-xxd_2%3a9.0.1378-2_amd64.deb ...
+Unpacking xxd (2:9.0.1378-2) ...
+Setting up libsodium23:amd64 (1.0.18-1) ...
+Setting up libgpm2:amd64 (1.20.7-10+b1) ...
+Setting up xxd (2:9.0.1378-2) ...
+Setting up vim-common (2:9.0.1378-2) ...
+Setting up vim-runtime (2:9.0.1378-2) ...
+Setting up vim (2:9.0.1378-2) ...
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/editor (editor) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/ex (ex) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/rview (rview) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/rvim (rvim) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vi (vi) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/view (view) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vim (vim) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vimdiff (vimdiff) in auto mode
+Processing triggers for libc-bin (2.36-9+deb12u3) ...
+root@be9a2307618a:/# vi
+root@be9a2307618a:/# exit
+exit
+eleve@bdtn:~$ docker commit be9a2307618a debian_vi
+sha256:1de5bef8c1d69db1fcfd891e8a0af9778e5a3644f1a76811631926c036fb7051
+eleve@bdtn:~$ docker container run -it debian_vi*
+docker: invalid reference format.
+See 'docker run --help'.
+eleve@bdtn:~$ docker container run -it debian_vi
+root@ba2e63e36269:/# apt-get update
+Hit:1 http://deb.debian.org/debian bookworm InRelease
+Hit:2 http://deb.debian.org/debian bookworm-updates InRelease
+Hit:3 http://deb.debian.org/debian-security bookworm-security InRelease
+Reading package lists... Done
+root@ba2e63e36269:/# apt-get install apache2
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  apache2-bin apache2-data apache2-utils ca-certificates krb5-locales libapr1
+  libaprutil1 libaprutil1-dbd-sqlite3 libaprutil1-ldap libbrotli1 libcurl4
+  libexpat1 libgdbm-compat4 libgdbm6 libgssapi-krb5-2 libicu72 libjansson4
+  libk5crypto3 libkeyutils1 libkrb5-3 libkrb5support0 libldap-2.5-0
+  libldap-common liblua5.3-0 libncursesw6 libnghttp2-14 libperl5.36 libproc2-0
+  libpsl5 librtmp1 libsasl2-2 libsasl2-modules libsasl2-modules-db libsqlite3-0
+  libssh2-1 libssl3 libxml2 media-types netbase openssl perl perl-modules-5.36
+  procps psmisc publicsuffix ssl-cert
+Suggested packages:
+  apache2-doc apache2-suexec-pristine | apache2-suexec-custom www-browser
+  gdbm-l10n krb5-doc krb5-user sensible-utils libsasl2-modules-gssapi-mit
+  | libsasl2-modules-gssapi-heimdal libsasl2-modules-ldap libsasl2-modules-otp
+  libsasl2-modules-sql perl-doc libterm-readline-gnu-perl
+  | libterm-readline-perl-perl make libtap-harness-archive-perl
+The following NEW packages will be installed:
+  apache2 apache2-bin apache2-data apache2-utils ca-certificates krb5-locales
+  libapr1 libaprutil1 libaprutil1-dbd-sqlite3 libaprutil1-ldap libbrotli1
+  libcurl4 libexpat1 libgdbm-compat4 libgdbm6 libgssapi-krb5-2 libicu72
+  libjansson4 libk5crypto3 libkeyutils1 libkrb5-3 libkrb5support0 libldap-2.5-0
+  libldap-common liblua5.3-0 libncursesw6 libnghttp2-14 libperl5.36 libproc2-0
+  libpsl5 librtmp1 libsasl2-2 libsasl2-modules libsasl2-modules-db libsqlite3-0
+  libssh2-1 libssl3 libxml2 media-types netbase openssl perl perl-modules-5.36
+  procps psmisc publicsuffix ssl-cert
+0 upgraded, 47 newly installed, 0 to remove and 0 not upgraded.
+Need to get 27.7 MB of archives.
+After this operation, 117 MB of additional disk space will be used.
+Do you want to continue? [Y/n] Y
+Get:1 http://deb.debian.org/debian bookworm/main amd64 perl-modules-5.36 all 5.36.0-7 [2815 kB]
+Get:2 http://deb.debian.org/debian bookworm/main amd64 libgdbm6 amd64 1.23-3 [72.2 kB]
+Get:3 http://deb.debian.org/debian bookworm/main amd64 libgdbm-compat4 amd64 1.23-3 [48.2 kB]
+Get:4 http://deb.debian.org/debian bookworm/main amd64 libperl5.36 amd64 5.36.0-7 [4218 kB]
+Get:5 http://deb.debian.org/debian bookworm/main amd64 perl amd64 5.36.0-7 [239 kB]
+Get:6 http://deb.debian.org/debian bookworm/main amd64 libapr1 amd64 1.7.2-3 [102 kB]
+Get:7 http://deb.debian.org/debian bookworm/main amd64 libexpat1 amd64 2.5.0-1 [99.3 kB]
+Get:8 http://deb.debian.org/debian bookworm/main amd64 libssl3 amd64 3.0.11-1~deb12u1 [2018 kB]
+Get:9 http://deb.debian.org/debian bookworm/main amd64 libaprutil1 amd64 1.6.3-1 [87.8 kB]
+Get:10 http://deb.debian.org/debian bookworm/main amd64 libsqlite3-0 amd64 3.40.1-2 [837 kB]
+Get:11 http://deb.debian.org/debian bookworm/main amd64 libaprutil1-dbd-sqlite3 amd64 1.6.3-1 [13.6 kB]
+Get:12 http://deb.debian.org/debian bookworm/main amd64 libsasl2-modules-db amd64 2.1.28+dfsg-10 [20.3 kB]
+Get:13 http://deb.debian.org/debian bookworm/main amd64 libsasl2-2 amd64 2.1.28+dfsg-10 [59.7 kB]
+Get:14 http://deb.debian.org/debian bookworm/main amd64 libldap-2.5-0 amd64 2.5.13+dfsg-5 [183 kB]
+Get:15 http://deb.debian.org/debian bookworm/main amd64 libaprutil1-ldap amd64 1.6.3-1 [11.8 kB]
+Get:16 http://deb.debian.org/debian bookworm/main amd64 libbrotli1 amd64 1.0.9-2+b6 [275 kB]
+Get:17 http://deb.debian.org/debian bookworm/main amd64 libkrb5support0 amd64 1.20.1-2+deb12u1 [32.4 kB]
+Get:18 http://deb.debian.org/debian bookworm/main amd64 libk5crypto3 amd64 1.20.1-2+deb12u1 [78.9 kB]
+Get:19 http://deb.debian.org/debian bookworm/main amd64 libkeyutils1 amd64 1.6.3-2 [8808 B]
+Get:20 http://deb.debian.org/debian bookworm/main amd64 libkrb5-3 amd64 1.20.1-2+deb12u1 [332 kB]
+Get:21 http://deb.debian.org/debian bookworm/main amd64 libgssapi-krb5-2 amd64 1.20.1-2+deb12u1 [134 kB]
+Get:22 http://deb.debian.org/debian bookworm/main amd64 libnghttp2-14 amd64 1.52.0-1 [72.3 kB]
+Get:23 http://deb.debian.org/debian bookworm/main amd64 libpsl5 amd64 0.21.2-1 [58.7 kB]
+Get:24 http://deb.debian.org/debian bookworm/main amd64 librtmp1 amd64 2.4+20151223.gitfa8646d.1-2+b2 [60.8 kB]
+Get:25 http://deb.debian.org/debian bookworm/main amd64 libssh2-1 amd64 1.10.0-3+b1 [179 kB]
+Get:26 http://deb.debian.org/debian-security bookworm-security/main amd64 libcurl4 amd64 7.88.1-10+deb12u4 [390 kB]
+Get:27 http://deb.debian.org/debian bookworm/main amd64 libjansson4 amd64 2.14-2 [40.8 kB]
+Get:28 http://deb.debian.org/debian bookworm/main amd64 liblua5.3-0 amd64 5.3.6-2 [123 kB]
+Get:29 http://deb.debian.org/debian bookworm/main amd64 libicu72 amd64 72.1-3 [9376 kB]
+Get:30 http://deb.debian.org/debian bookworm/main amd64 libxml2 amd64 2.9.14+dfsg-1.3~deb12u1 [687 kB]
+Get:31 http://deb.debian.org/debian bookworm/main amd64 apache2-bin amd64 2.4.57-2 [1364 kB]
+Get:32 http://deb.debian.org/debian bookworm/main amd64 apache2-data all 2.4.57-2 [160 kB]
+Get:33 http://deb.debian.org/debian bookworm/main amd64 apache2-utils amd64 2.4.57-2 [202 kB]
+Get:34 http://deb.debian.org/debian bookworm/main amd64 media-types all 10.0.0 [26.1 kB]
+Get:35 http://deb.debian.org/debian bookworm/main amd64 libncursesw6 amd64 6.4-4 [134 kB]
+Get:36 http://deb.debian.org/debian bookworm/main amd64 libproc2-0 amd64 2:4.0.2-3 [62.8 kB]
+Get:37 http://deb.debian.org/debian bookworm/main amd64 procps amd64 2:4.0.2-3 [709 kB]
+Get:38 http://deb.debian.org/debian bookworm/main amd64 apache2 amd64 2.4.57-2 [215 kB]
+Get:39 http://deb.debian.org/debian bookworm/main amd64 netbase all 6.4 [12.8 kB]
+Get:40 http://deb.debian.org/debian bookworm/main amd64 openssl amd64 3.0.11-1~deb12u1 [1420 kB]
+Get:41 http://deb.debian.org/debian bookworm/main amd64 ca-certificates all 20230311 [153 kB]
+Get:42 http://deb.debian.org/debian bookworm/main amd64 krb5-locales all 1.20.1-2+deb12u1 [62.7 kB]
+Get:43 http://deb.debian.org/debian bookworm/main amd64 libldap-common all 2.5.13+dfsg-5 [29.3 kB]
+Get:44 http://deb.debian.org/debian bookworm/main amd64 libsasl2-modules amd64 2.1.28+dfsg-10 [66.6 kB]
+Get:45 http://deb.debian.org/debian bookworm/main amd64 psmisc amd64 23.6-1 [259 kB]
+Get:46 http://deb.debian.org/debian bookworm/main amd64 publicsuffix all 20230209.2326-1 [126 kB]
+Get:47 http://deb.debian.org/debian bookworm/main amd64 ssl-cert all 1.1.2 [21.1 kB]
+Fetched 27.7 MB in 1s (30.4 MB/s)     
+debconf: delaying package configuration, since apt-utils is not installed
+Selecting previously unselected package perl-modules-5.36.
+(Reading database ... 8264 files and directories currently installed.)
+Preparing to unpack .../00-perl-modules-5.36_5.36.0-7_all.deb ...
+Unpacking perl-modules-5.36 (5.36.0-7) ...
+Selecting previously unselected package libgdbm6:amd64.
+Preparing to unpack .../01-libgdbm6_1.23-3_amd64.deb ...
+Unpacking libgdbm6:amd64 (1.23-3) ...
+Selecting previously unselected package libgdbm-compat4:amd64.
+Preparing to unpack .../02-libgdbm-compat4_1.23-3_amd64.deb ...
+Unpacking libgdbm-compat4:amd64 (1.23-3) ...
+Selecting previously unselected package libperl5.36:amd64.
+Preparing to unpack .../03-libperl5.36_5.36.0-7_amd64.deb ...
+Unpacking libperl5.36:amd64 (5.36.0-7) ...
+Selecting previously unselected package perl.
+Preparing to unpack .../04-perl_5.36.0-7_amd64.deb ...
+Unpacking perl (5.36.0-7) ...
+Selecting previously unselected package libapr1:amd64.
+Preparing to unpack .../05-libapr1_1.7.2-3_amd64.deb ...
+Unpacking libapr1:amd64 (1.7.2-3) ...
+Selecting previously unselected package libexpat1:amd64.
+Preparing to unpack .../06-libexpat1_2.5.0-1_amd64.deb ...
+Unpacking libexpat1:amd64 (2.5.0-1) ...
+Selecting previously unselected package libssl3:amd64.
+Preparing to unpack .../07-libssl3_3.0.11-1~deb12u1_amd64.deb ...
+Unpacking libssl3:amd64 (3.0.11-1~deb12u1) ...
+Selecting previously unselected package libaprutil1:amd64.
+Preparing to unpack .../08-libaprutil1_1.6.3-1_amd64.deb ...
+Unpacking libaprutil1:amd64 (1.6.3-1) ...
+Selecting previously unselected package libsqlite3-0:amd64.
+Preparing to unpack .../09-libsqlite3-0_3.40.1-2_amd64.deb ...
+Unpacking libsqlite3-0:amd64 (3.40.1-2) ...
+Selecting previously unselected package libaprutil1-dbd-sqlite3:amd64.
+Preparing to unpack .../10-libaprutil1-dbd-sqlite3_1.6.3-1_amd64.deb ...
+Unpacking libaprutil1-dbd-sqlite3:amd64 (1.6.3-1) ...
+Selecting previously unselected package libsasl2-modules-db:amd64.
+Preparing to unpack .../11-libsasl2-modules-db_2.1.28+dfsg-10_amd64.deb ...
+Unpacking libsasl2-modules-db:amd64 (2.1.28+dfsg-10) ...
+Selecting previously unselected package libsasl2-2:amd64.
+Preparing to unpack .../12-libsasl2-2_2.1.28+dfsg-10_amd64.deb ...
+Unpacking libsasl2-2:amd64 (2.1.28+dfsg-10) ...
+Selecting previously unselected package libldap-2.5-0:amd64.
+Preparing to unpack .../13-libldap-2.5-0_2.5.13+dfsg-5_amd64.deb ...
+Unpacking libldap-2.5-0:amd64 (2.5.13+dfsg-5) ...
+Selecting previously unselected package libaprutil1-ldap:amd64.
+Preparing to unpack .../14-libaprutil1-ldap_1.6.3-1_amd64.deb ...
+Unpacking libaprutil1-ldap:amd64 (1.6.3-1) ...
+Selecting previously unselected package libbrotli1:amd64.
+Preparing to unpack .../15-libbrotli1_1.0.9-2+b6_amd64.deb ...
+Unpacking libbrotli1:amd64 (1.0.9-2+b6) ...
+Selecting previously unselected package libkrb5support0:amd64.
+Preparing to unpack .../16-libkrb5support0_1.20.1-2+deb12u1_amd64.deb ...
+Unpacking libkrb5support0:amd64 (1.20.1-2+deb12u1) ...
+Selecting previously unselected package libk5crypto3:amd64.
+Preparing to unpack .../17-libk5crypto3_1.20.1-2+deb12u1_amd64.deb ...
+Unpacking libk5crypto3:amd64 (1.20.1-2+deb12u1) ...
+Selecting previously unselected package libkeyutils1:amd64.
+Preparing to unpack .../18-libkeyutils1_1.6.3-2_amd64.deb ...
+Unpacking libkeyutils1:amd64 (1.6.3-2) ...
+Selecting previously unselected package libkrb5-3:amd64.
+Preparing to unpack .../19-libkrb5-3_1.20.1-2+deb12u1_amd64.deb ...
+Unpacking libkrb5-3:amd64 (1.20.1-2+deb12u1) ...
+Selecting previously unselected package libgssapi-krb5-2:amd64.
+Preparing to unpack .../20-libgssapi-krb5-2_1.20.1-2+deb12u1_amd64.deb ...
+Unpacking libgssapi-krb5-2:amd64 (1.20.1-2+deb12u1) ...
+Selecting previously unselected package libnghttp2-14:amd64.
+Preparing to unpack .../21-libnghttp2-14_1.52.0-1_amd64.deb ...
+Unpacking libnghttp2-14:amd64 (1.52.0-1) ...
+Selecting previously unselected package libpsl5:amd64.
+Preparing to unpack .../22-libpsl5_0.21.2-1_amd64.deb ...
+Unpacking libpsl5:amd64 (0.21.2-1) ...
+Selecting previously unselected package librtmp1:amd64.
+Preparing to unpack .../23-librtmp1_2.4+20151223.gitfa8646d.1-2+b2_amd64.deb ...
+Unpacking librtmp1:amd64 (2.4+20151223.gitfa8646d.1-2+b2) ...
+Selecting previously unselected package libssh2-1:amd64.
+Preparing to unpack .../24-libssh2-1_1.10.0-3+b1_amd64.deb ...
+Unpacking libssh2-1:amd64 (1.10.0-3+b1) ...
+Selecting previously unselected package libcurl4:amd64.
+Preparing to unpack .../25-libcurl4_7.88.1-10+deb12u4_amd64.deb ...
+Unpacking libcurl4:amd64 (7.88.1-10+deb12u4) ...
+Selecting previously unselected package libjansson4:amd64.
+Preparing to unpack .../26-libjansson4_2.14-2_amd64.deb ...
+Unpacking libjansson4:amd64 (2.14-2) ...
+Selecting previously unselected package liblua5.3-0:amd64.
+Preparing to unpack .../27-liblua5.3-0_5.3.6-2_amd64.deb ...
+Unpacking liblua5.3-0:amd64 (5.3.6-2) ...
+Selecting previously unselected package libicu72:amd64.
+Preparing to unpack .../28-libicu72_72.1-3_amd64.deb ...
+Unpacking libicu72:amd64 (72.1-3) ...
+Selecting previously unselected package libxml2:amd64.
+Preparing to unpack .../29-libxml2_2.9.14+dfsg-1.3~deb12u1_amd64.deb ...
+Unpacking libxml2:amd64 (2.9.14+dfsg-1.3~deb12u1) ...
+Selecting previously unselected package apache2-bin.
+Preparing to unpack .../30-apache2-bin_2.4.57-2_amd64.deb ...
+Unpacking apache2-bin (2.4.57-2) ...
+Selecting previously unselected package apache2-data.
+Preparing to unpack .../31-apache2-data_2.4.57-2_all.deb ...
+Unpacking apache2-data (2.4.57-2) ...
+Selecting previously unselected package apache2-utils.
+Preparing to unpack .../32-apache2-utils_2.4.57-2_amd64.deb ...
+Unpacking apache2-utils (2.4.57-2) ...
+Selecting previously unselected package media-types.
+Preparing to unpack .../33-media-types_10.0.0_all.deb ...
+Unpacking media-types (10.0.0) ...
+Selecting previously unselected package libncursesw6:amd64.
+Preparing to unpack .../34-libncursesw6_6.4-4_amd64.deb ...
+Unpacking libncursesw6:amd64 (6.4-4) ...
+Selecting previously unselected package libproc2-0:amd64.
+Preparing to unpack .../35-libproc2-0_2%3a4.0.2-3_amd64.deb ...
+Unpacking libproc2-0:amd64 (2:4.0.2-3) ...
+Selecting previously unselected package procps.
+Preparing to unpack .../36-procps_2%3a4.0.2-3_amd64.deb ...
+Unpacking procps (2:4.0.2-3) ...
+Selecting previously unselected package apache2.
+Preparing to unpack .../37-apache2_2.4.57-2_amd64.deb ...
+Unpacking apache2 (2.4.57-2) ...
+Selecting previously unselected package netbase.
+Preparing to unpack .../38-netbase_6.4_all.deb ...
+Unpacking netbase (6.4) ...
+Selecting previously unselected package openssl.
+Preparing to unpack .../39-openssl_3.0.11-1~deb12u1_amd64.deb ...
+Unpacking openssl (3.0.11-1~deb12u1) ...
+Selecting previously unselected package ca-certificates.
+Preparing to unpack .../40-ca-certificates_20230311_all.deb ...
+Unpacking ca-certificates (20230311) ...
+Selecting previously unselected package krb5-locales.
+Preparing to unpack .../41-krb5-locales_1.20.1-2+deb12u1_all.deb ...
+Unpacking krb5-locales (1.20.1-2+deb12u1) ...
+Selecting previously unselected package libldap-common.
+Preparing to unpack .../42-libldap-common_2.5.13+dfsg-5_all.deb ...
+Unpacking libldap-common (2.5.13+dfsg-5) ...
+Selecting previously unselected package libsasl2-modules:amd64.
+Preparing to unpack .../43-libsasl2-modules_2.1.28+dfsg-10_amd64.deb ...
+Unpacking libsasl2-modules:amd64 (2.1.28+dfsg-10) ...
+Selecting previously unselected package psmisc.
+Preparing to unpack .../44-psmisc_23.6-1_amd64.deb ...
+Unpacking psmisc (23.6-1) ...
+Selecting previously unselected package publicsuffix.
+Preparing to unpack .../45-publicsuffix_20230209.2326-1_all.deb ...
+Unpacking publicsuffix (20230209.2326-1) ...
+Selecting previously unselected package ssl-cert.
+Preparing to unpack .../46-ssl-cert_1.1.2_all.deb ...
+Unpacking ssl-cert (1.1.2) ...
+Setting up libexpat1:amd64 (2.5.0-1) ...
+Setting up media-types (10.0.0) ...
+Setting up libkeyutils1:amd64 (1.6.3-2) ...
+Setting up libpsl5:amd64 (0.21.2-1) ...
+Setting up libicu72:amd64 (72.1-3) ...
+Setting up psmisc (23.6-1) ...
+Setting up libbrotli1:amd64 (1.0.9-2+b6) ...
+Setting up libsqlite3-0:amd64 (3.40.1-2) ...
+Setting up libssl3:amd64 (3.0.11-1~deb12u1) ...
+Setting up libnghttp2-14:amd64 (1.52.0-1) ...
+Setting up libapr1:amd64 (1.7.2-3) ...
+Setting up krb5-locales (1.20.1-2+deb12u1) ...
+Setting up libldap-common (2.5.13+dfsg-5) ...
+Setting up libjansson4:amd64 (2.14-2) ...
+Setting up libkrb5support0:amd64 (1.20.1-2+deb12u1) ...
+Setting up libsasl2-modules-db:amd64 (2.1.28+dfsg-10) ...
+Setting up perl-modules-5.36 (5.36.0-7) ...
+Setting up librtmp1:amd64 (2.4+20151223.gitfa8646d.1-2+b2) ...
+Setting up libproc2-0:amd64 (2:4.0.2-3) ...
+Setting up libncursesw6:amd64 (6.4-4) ...
+Setting up libk5crypto3:amd64 (1.20.1-2+deb12u1) ...
+Setting up libsasl2-2:amd64 (2.1.28+dfsg-10) ...
+Setting up liblua5.3-0:amd64 (5.3.6-2) ...
+Setting up procps (2:4.0.2-3) ...
+Setting up libssh2-1:amd64 (1.10.0-3+b1) ...
+Setting up netbase (6.4) ...
+Setting up libkrb5-3:amd64 (1.20.1-2+deb12u1) ...
+Setting up apache2-data (2.4.57-2) ...
+Setting up openssl (3.0.11-1~deb12u1) ...
+Setting up publicsuffix (20230209.2326-1) ...
+Setting up libxml2:amd64 (2.9.14+dfsg-1.3~deb12u1) ...
+Setting up libgdbm6:amd64 (1.23-3) ...
+Setting up libaprutil1:amd64 (1.6.3-1) ...
+Setting up libsasl2-modules:amd64 (2.1.28+dfsg-10) ...
+Setting up libaprutil1-dbd-sqlite3:amd64 (1.6.3-1) ...
+Setting up libldap-2.5-0:amd64 (2.5.13+dfsg-5) ...
+Setting up ca-certificates (20230311) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 78.)
+debconf: falling back to frontend: Readline
+Updating certificates in /etc/ssl/certs...
+140 added, 0 removed; done.
+Setting up ssl-cert (1.1.2) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 78.)
+debconf: falling back to frontend: Readline
+Setting up libgssapi-krb5-2:amd64 (1.20.1-2+deb12u1) ...
+Setting up libgdbm-compat4:amd64 (1.23-3) ...
+Setting up libcurl4:amd64 (7.88.1-10+deb12u4) ...
+Setting up libperl5.36:amd64 (5.36.0-7) ...
+Setting up apache2-utils (2.4.57-2) ...
+Setting up libaprutil1-ldap:amd64 (1.6.3-1) ...
+Setting up perl (5.36.0-7) ...
+Setting up apache2-bin (2.4.57-2) ...
+Setting up apache2 (2.4.57-2) ...
+Enabling module mpm_event.
+Enabling module authz_core.
+Enabling module authz_host.
+Enabling module authn_core.
+Enabling module auth_basic.
+Enabling module access_compat.
+Enabling module authn_file.
+Enabling module authz_user.
+Enabling module alias.
+Enabling module dir.
+Enabling module autoindex.
+Enabling module env.
+Enabling module mime.
+Enabling module negotiation.
+Enabling module setenvif.
+Enabling module filter.
+Enabling module deflate.
+Enabling module status.
+Enabling module reqtimeout.
+Enabling conf charset.
+Enabling conf localized-error-pages.
+Enabling conf other-vhosts-access-log.
+Enabling conf security.
+Enabling conf serve-cgi-bin.
+Enabling site 000-default.
+invoke-rc.d: could not determine current runlevel
+invoke-rc.d: policy-rc.d denied execution of start.
+Processing triggers for libc-bin (2.36-9+deb12u3) ...
+Processing triggers for ca-certificates (20230311) ...
+Updating certificates in /etc/ssl/certs...
+0 added, 0 removed; done.
+Running hooks in /etc/ca-certificates/update.d...
+done.
+root@ba2e63e36269:/# apt-get install libapache2-mod-php8.2
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  libargon2-1 libbsd0 libedit2 libmagic-mgc libmagic1 php-common php8.2-cli
+  php8.2-common php8.2-opcache php8.2-readline sensible-utils ucf
+Suggested packages:
+  php-pear file
+The following NEW packages will be installed:
+  libapache2-mod-php8.2 libargon2-1 libbsd0 libedit2 libmagic-mgc libmagic1
+  php-common php8.2-cli php8.2-common php8.2-opcache php8.2-readline
+  sensible-utils ucf
+0 upgraded, 13 newly installed, 0 to remove and 0 not upgraded.
+Need to get 5156 kB of archives.
+After this operation, 30.5 MB of additional disk space will be used.
+Do you want to continue? [Y/n] Y
+Get:1 http://deb.debian.org/debian bookworm/main amd64 sensible-utils all 0.0.17+nmu1 [19.0 kB]
+Get:2 http://deb.debian.org/debian bookworm/main amd64 ucf all 3.0043+nmu1 [55.2 kB]
+Get:3 http://deb.debian.org/debian bookworm/main amd64 libmagic-mgc amd64 1:5.44-3 [305 kB]
+Get:4 http://deb.debian.org/debian bookworm/main amd64 libmagic1 amd64 1:5.44-3 [104 kB]
+Get:5 http://deb.debian.org/debian bookworm/main amd64 libbsd0 amd64 0.11.7-2 [117 kB]
+Get:6 http://deb.debian.org/debian bookworm/main amd64 libedit2 amd64 3.1-20221030-2 [93.0 kB]
+Get:7 http://deb.debian.org/debian bookworm/main amd64 php-common all 2:93 [13.1 kB]
+Get:8 http://deb.debian.org/debian bookworm/main amd64 php8.2-common amd64 8.2.7-1~deb12u1 [668 kB]
+Get:9 http://deb.debian.org/debian bookworm/main amd64 php8.2-opcache amd64 8.2.7-1~deb12u1 [344 kB]
+Get:10 http://deb.debian.org/debian bookworm/main amd64 php8.2-readline amd64 8.2.7-1~deb12u1 [12.4 kB]
+Get:11 http://deb.debian.org/debian bookworm/main amd64 libargon2-1 amd64 0~20171227-0.3+deb12u1 [19.4 kB]
+Get:12 http://deb.debian.org/debian bookworm/main amd64 php8.2-cli amd64 8.2.7-1~deb12u1 [1732 kB]
+Get:13 http://deb.debian.org/debian bookworm/main amd64 libapache2-mod-php8.2 amd64 8.2.7-1~deb12u1 [1674 kB]
+Fetched 5156 kB in 1s (6628 kB/s)               
+debconf: delaying package configuration, since apt-utils is not installed
+Selecting previously unselected package sensible-utils.
+(Reading database ... 12004 files and directories currently installed.)
+Preparing to unpack .../00-sensible-utils_0.0.17+nmu1_all.deb ...
+Unpacking sensible-utils (0.0.17+nmu1) ...
+Selecting previously unselected package ucf.
+Preparing to unpack .../01-ucf_3.0043+nmu1_all.deb ...
+Moving old data out of the way
+Unpacking ucf (3.0043+nmu1) ...
+Selecting previously unselected package libmagic-mgc.
+Preparing to unpack .../02-libmagic-mgc_1%3a5.44-3_amd64.deb ...
+Unpacking libmagic-mgc (1:5.44-3) ...
+Selecting previously unselected package libmagic1:amd64.
+Preparing to unpack .../03-libmagic1_1%3a5.44-3_amd64.deb ...
+Unpacking libmagic1:amd64 (1:5.44-3) ...
+Selecting previously unselected package libbsd0:amd64.
+Preparing to unpack .../04-libbsd0_0.11.7-2_amd64.deb ...
+Unpacking libbsd0:amd64 (0.11.7-2) ...
+Selecting previously unselected package libedit2:amd64.
+Preparing to unpack .../05-libedit2_3.1-20221030-2_amd64.deb ...
+Unpacking libedit2:amd64 (3.1-20221030-2) ...
+Selecting previously unselected package php-common.
+Preparing to unpack .../06-php-common_2%3a93_all.deb ...
+Unpacking php-common (2:93) ...
+Selecting previously unselected package php8.2-common.
+Preparing to unpack .../07-php8.2-common_8.2.7-1~deb12u1_amd64.deb ...
+Unpacking php8.2-common (8.2.7-1~deb12u1) ...
+Selecting previously unselected package php8.2-opcache.
+Preparing to unpack .../08-php8.2-opcache_8.2.7-1~deb12u1_amd64.deb ...
+Unpacking php8.2-opcache (8.2.7-1~deb12u1) ...
+Selecting previously unselected package php8.2-readline.
+Preparing to unpack .../09-php8.2-readline_8.2.7-1~deb12u1_amd64.deb ...
+Unpacking php8.2-readline (8.2.7-1~deb12u1) ...
+Selecting previously unselected package libargon2-1:amd64.
+Preparing to unpack .../10-libargon2-1_0~20171227-0.3+deb12u1_amd64.deb ...
+Unpacking libargon2-1:amd64 (0~20171227-0.3+deb12u1) ...
+Selecting previously unselected package php8.2-cli.
+Preparing to unpack .../11-php8.2-cli_8.2.7-1~deb12u1_amd64.deb ...
+Unpacking php8.2-cli (8.2.7-1~deb12u1) ...
+Selecting previously unselected package libapache2-mod-php8.2.
+Preparing to unpack .../12-libapache2-mod-php8.2_8.2.7-1~deb12u1_amd64.deb ...
+Unpacking libapache2-mod-php8.2 (8.2.7-1~deb12u1) ...
+Setting up php-common (2:93) ...
+Setting up libmagic-mgc (1:5.44-3) ...
+Setting up libargon2-1:amd64 (0~20171227-0.3+deb12u1) ...
+Setting up libmagic1:amd64 (1:5.44-3) ...
+Setting up sensible-utils (0.0.17+nmu1) ...
+Setting up libbsd0:amd64 (0.11.7-2) ...
+Setting up libedit2:amd64 (3.1-20221030-2) ...
+Setting up ucf (3.0043+nmu1) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 78.)
+debconf: falling back to frontend: Readline
+Setting up php8.2-common (8.2.7-1~deb12u1) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 78.)
+debconf: falling back to frontend: Readline
+
+Creating config file /etc/php/8.2/mods-available/calendar.ini with new version
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 78.)
+debconf: falling back to frontend: Readline
+
+Creating config file /etc/php/8.2/mods-available/ctype.ini with new version
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 78.)
+debconf: falling back to frontend: Readline
+
+Creating config file /etc/php/8.2/mods-available/exif.ini with new version
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 78.)
+debconf: falling back to frontend: Readline
+
+Creating config file /etc/php/8.2/mods-available/fileinfo.ini with new version
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 78.)
+debconf: falling back to frontend: Readline
+
+Creating config file /etc/php/8.2/mods-available/ffi.ini with new version
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 78.)
+debconf: falling back to frontend: Readline
+
+Creating config file /etc/php/8.2/mods-available/ftp.ini with new version
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 78.)
+debconf: falling back to frontend: Readline
+
+Creating config file /etc/php/8.2/mods-available/gettext.ini with new version
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 78.)
+debconf: falling back to frontend: Readline
+
+Creating config file /etc/php/8.2/mods-available/iconv.ini with new version
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 78.)
+debconf: falling back to frontend: Readline
+
+Creating config file /etc/php/8.2/mods-available/pdo.ini with new version
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 78.)
+debconf: falling back to frontend: Readline
+
+Creating config file /etc/php/8.2/mods-available/phar.ini with new version
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 78.)
+debconf: falling back to frontend: Readline
+
+Creating config file /etc/php/8.2/mods-available/posix.ini with new version
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 78.)
+debconf: falling back to frontend: Readline
+
+Creating config file /etc/php/8.2/mods-available/shmop.ini with new version
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 78.)
+debconf: falling back to frontend: Readline
+
+Creating config file /etc/php/8.2/mods-available/sockets.ini with new version
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 78.)
+debconf: falling back to frontend: Readline
+
+Creating config file /etc/php/8.2/mods-available/sysvmsg.ini with new version
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 78.)
+debconf: falling back to frontend: Readline
+
+Creating config file /etc/php/8.2/mods-available/sysvsem.ini with new version
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 78.)
+debconf: falling back to frontend: Readline
+
+Creating config file /etc/php/8.2/mods-available/sysvshm.ini with new version
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 78.)
+debconf: falling back to frontend: Readline
+
+Creating config file /etc/php/8.2/mods-available/tokenizer.ini with new version
+Setting up php8.2-opcache (8.2.7-1~deb12u1) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 78.)
+debconf: falling back to frontend: Readline
+
+Creating config file /etc/php/8.2/mods-available/opcache.ini with new version
+Setting up php8.2-readline (8.2.7-1~deb12u1) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 78.)
+debconf: falling back to frontend: Readline
+
+Creating config file /etc/php/8.2/mods-available/readline.ini with new version
+Setting up php8.2-cli (8.2.7-1~deb12u1) ...
+update-alternatives: using /usr/bin/php8.2 to provide /usr/bin/php (php) in auto mode
+update-alternatives: using /usr/bin/phar8.2 to provide /usr/bin/phar (phar) in auto mode
+update-alternatives: using /usr/bin/phar.phar8.2 to provide /usr/bin/phar.phar (phar.phar) in auto mode
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 78.)
+debconf: falling back to frontend: Readline
+
+Creating config file /etc/php/8.2/cli/php.ini with new version
+Setting up libapache2-mod-php8.2 (8.2.7-1~deb12u1) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 78.)
+debconf: falling back to frontend: Readline
+
+Creating config file /etc/php/8.2/apache2/php.ini with new version
+Module mpm_event disabled.
+Enabling module mpm_prefork.
+apache2_switch_mpm Switch to prefork
+invoke-rc.d: could not determine current runlevel
+invoke-rc.d: policy-rc.d denied execution of restart.
+apache2_invoke: Enable module php8.2
+invoke-rc.d: could not determine current runlevel
+invoke-rc.d: policy-rc.d denied execution of restart.
+Processing triggers for libc-bin (2.36-9+deb12u3) ...
+Processing triggers for php8.2-cli (8.2.7-1~deb12u1) ...
+Processing triggers for libapache2-mod-php8.2 (8.2.7-1~deb12u1) ...
+root@ba2e63e36269:/# exit
+exit
+eleve@bdtn:~$ docker commit ba2e63e36269 debian_vi
+sha256:1c8c1298d16be8d140d204a053b54b9cd40f8d9e1f99402eb8fd69d5242e4996
+eleve@bdtn:~$ docker commit ba2e63e36269 debian_apache2
+sha256:9d25d6af8e5ff031c44503a0f6ae3a9d113bdf41f9cad7ab811c9746ca79140d
+eleve@bdtn:~$ docker run -d -p 80:80 debian_apache2 /usr/sbin/apache2ctl -D FOREGROUND
+8a3964eceae802cb168b3a548c9d35d0560b6a2fa78ea4a1a2e7c973129dbdc7
+eleve@bdtn:~$ docker ps
+CONTAINER ID   IMAGE            COMMAND                  CREATED              STATUS              PORTS                                   NAMES
+8a3964eceae8   debian_apache2   "/usr/sbin/apache2ct…"   About a minute ago   Up About a minute   0.0.0.0:80->80/tcp, :::80->80/tcp       cool_joliot
+8a891c876bd3   debian_sshd      "/usr/sbin/sshd -D"      2 hours ago          Up 2 hours          0.0.0.0:22->22/tcp, :::22->22/tcp       cranky_merkle
+aa566fe971d0   debian_sshd      "/usr/sbin/sshd -D"      3 hours ago          Up 3 hours          0.0.0.0:2222->22/tcp, :::2222->22/tcp   optimistic_lalande
+eleve@bdtn:~$ docker container ps
+CONTAINER ID   IMAGE            COMMAND                  CREATED         STATUS         PORTS                                   NAMES
+8a3964eceae8   debian_apache2   "/usr/sbin/apache2ct…"   5 minutes ago   Up 5 minutes   0.0.0.0:80->80/tcp, :::80->80/tcp       cool_joliot
+8a891c876bd3   debian_sshd      "/usr/sbin/sshd -D"      2 hours ago     Up 2 hours     0.0.0.0:22->22/tcp, :::22->22/tcp       cranky_merkle
+aa566fe971d0   debian_sshd      "/usr/sbin/sshd -D"      3 hours ago     Up 3 hours     0.0.0.0:2222->22/tcp, :::2222->22/tcp   optimistic_lalande
+eleve@bdtn:~$ docker container ps -a
+CONTAINER ID   IMAGE            COMMAND                  CREATED          STATUS                      PORTS                                   NAMES
+8a3964eceae8   debian_apache2   "/usr/sbin/apache2ct…"   5 minutes ago    Up 5 minutes                0.0.0.0:80->80/tcp, :::80->80/tcp       cool_joliot
+ba2e63e36269   1de5bef8c1d6     "bash"                   20 minutes ago   Exited (0) 18 minutes ago                                           beautiful_babbage
+be9a2307618a   debian           "bash"                   22 minutes ago   Exited (0) 21 minutes ago                                           pensive_margulis
+8a891c876bd3   debian_sshd      "/usr/sbin/sshd -D"      2 hours ago      Up 2 hours                  0.0.0.0:22->22/tcp, :::22->22/tcp       cranky_merkle
+f019a6c92f7b   debian_sshd      "/usr/sbin/sshd -D"      2 hours ago      Created                                                             jolly_clarke
+aa566fe971d0   debian_sshd      "/usr/sbin/sshd -D"      3 hours ago      Up 3 hours                  0.0.0.0:2222->22/tcp, :::2222->22/tcp   optimistic_lalande
+020414094a02   debian           "bash"                   3 hours ago      Exited (0) 3 hours ago                                              modest_bassi
+f1d06ab81622   debian           "bash"                   25 hours ago     Exited (127) 25 hours ago                                           peaceful_keller
+9a74b211aef0   debian           "bash"                   26 hours ago     Exited (0) 25 hours ago                                             brave_robinson
+365e1ee62631   debian           "bash"                   26 hours ago     Exited (0) 26 hours ago                                             xenodochial_joliot
+63ef3acd0cff   debian           "echo 'Hello world'"     26 hours ago     Exited (0) 26 hours ago                                             optimistic_gould
+a92c26e4829a   debian           "bash"                   26 hours ago     Exited (0) 26 hours ago                                             mystifying_khayyam
+488f189372db   debian           "bash"                   26 hours ago     Exited (0) 26 hours ago                                             eloquent_chatelet
+855501d12683   debian           "bash"                   26 hours ago     Exited (0) 26 hours ago                                             mystifying_murdock
+68d7c7a76050   debian           "bash"                   26 hours ago     Exited (0) 26 hours ago                                             jolly_benz
+dcd2820e9ccf   docker           "dockerd-entrypoint.…"   26 hours ago     Exited (1) 26 hours ago                                             zealous_swanson
+5266cbcab841   docker           "dockerd-entrypoint.…"   26 hours ago     Exited (1) 26 hours ago                                             adoring_robinson
+ba375f3ea00f   hello-world      "/hello"                 26 hours ago     Exited (0) 26 hours ago                                             silly_haibt
+5d21d2d053ad   hello-world      "/hello"                 27 hours ago     Exited (0) 27 hours ago                                             affectionate_kalam
+eleve@bdtn:~$ docker stop 8a3964eceae8
+8a3964eceae8
+eleve@bdtn:~$ docker container run -it --name serveur_web debian_apache2
+root@df327b314922:/# exit
+exit
+eleve@bdtn:~$ docker stop 8a891c876bd3
+8a891c876bd3
+eleve@bdtn:~$ docker stop aa566fe971d0
+aa566fe971d0
+eleve@bdtn:~$ docker container run -it --name serveur_web debian_apache2
+docker: Error response from daemon: Conflict. The container name "/serveur_web" is already in use by container "df327b314922753ffe87f5c8bd4b28a64150d4737a90d0ca407c84057af3d9e8". You have to remove (or rename) that container to be able to reuse that name.
+See 'docker run --help'.
+eleve@bdtn:~$ docker container exec -it serveur_web /bin/bash
+Error response from daemon: Container df327b314922753ffe87f5c8bd4b28a64150d4737a90d0ca407c84057af3d9e8 is not running
+eleve@bdtn:~$ docker ps
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+eleve@bdtn:~$ docker run -d -p 80:80 --name serveur_web debian_apache2 /usr/sbin/apache2ctl -D FOREGROUND
+docker: Error response from daemon: Conflict. The container name "/serveur_web" is already in use by container "df327b314922753ffe87f5c8bd4b28a64150d4737a90d0ca407c84057af3d9e8". You have to remove (or rename) that container to be able to reuse that name.
+See 'docker run --help'.
+eleve@bdtn:~$ docker run -d -p 80:80 --name serveur_web_ok debian_apache2 /usr/sbin/apache2ctl -D FOREGROUND
+676a4bb0459d0afe1a30e2d8823ce6d5b1e9f054bfc3ef058aa1ce4b9ced642b
+eleve@bdtn:~$ docker container exec -it serveur_web_ok /bin/bash
+root@676a4bb0459d:/# ls
+bin   dev  home  lib32  libx32  mnt  proc  run   srv  tmp  var
+boot  etc  lib   lib64  media   opt  root  sbin  sys  usr
+root@676a4bb0459d:/# cd var/ww
+bash: cd: var/ww: No such file or directory
+root@676a4bb0459d:/# cd var/www/
+root@676a4bb0459d:/var/www# ls
+html
+root@676a4bb0459d:/var/www# cd html 
+root@676a4bb0459d:/var/www/html# ld
+bash: ld: command not found
+root@676a4bb0459d:/var/www/html# ls
+index.html
+root@676a4bb0459d:/var/www/html# vi index.html
+root@676a4bb0459d:/var/www/html# vi index.html
+root@676a4bb0459d:/var/www/html# 
