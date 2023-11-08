@@ -1,0 +1,17 @@
+eleve@bdtn:~$ sudo apt-get update
+[sudo] Mot de passe de eleve : 
+ #installation des MAJ
+eleve@bdtn:~$ sudo apt-get chormium pyhton3-pip et python3-venv
+[sudo] Mot de passe de eleve :
+ #installation des paquet chormium pyhton3 et python3-venv
+eleve@bdtn:~$ python3 -m venv virtuel
+eleve@bdtn:~$ ls
+Bureau     Images   Musique  Téléchargements  virtuel
+Documents  Modèles  Public   Vidéos
+eleve@bdtn:~$ which python3     # détermine quel exécutable tourne et donne son chemin d'accès
+/usr/bin/python3
+eleve@bdtn:~$ source virtuel/bin/activate
+(virtuel) eleve@bdtn:~$ which python3
+/home/eleve/virtuel/bin/python3
+(virtuel) eleve@bdtn:~$ deactivate
+eleve@bdtn:~$ code ./.bashrc
