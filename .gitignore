@@ -2,6 +2,9 @@
 credentials.json
 Credentials.json
 
+#logs
+logdir
+saved_models
 
 # ignore virtual environments
 venv
